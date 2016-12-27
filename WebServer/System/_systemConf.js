@@ -13,10 +13,10 @@ __System.dataSource={
 };
 
 global._ResultCode={
-    init:10,// ³õÊ¼×´Ì¬ -10
-    exception:-1,// Òì³£:-1
-    fail:0,// ·µ»Ø½á¹ûÊ§°Ü:0
-    success:1// ·µ»Ø½á¹û³É¹¦:1
+    init:10,// åˆå§‹çŠ¶æ€ -10
+    exception:-1,// å¼‚å¸¸:-1
+    fail:0,// è¿”å›ç»“æœå¤±è´¥:0
+    success:1// è¿”å›ç»“æœæˆåŠŸ:1
 };
 
 global.PR = function () {
