@@ -25,13 +25,17 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
     avalon.ready(function () {
          _vm = avalon.define({
             $id: "test",
-            "searchResult":"125",
+            "testResult":"125",
              "test":function(){
                  search();
              },
-             "DBResult":"点击调用数据库查询",
+             "searchResult":"点击调用数据库查询",
              "searchDB":function(){
                  searchDB();
+             },
+             "insertResult":"点击添加一条数据到数据库",
+             "insertDB":function(){
+                 insertDB();
              }
         })
         avalon.scan(document.body);
@@ -50,7 +54,7 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
             servicesType:"" //servicestype 默认值"node"
         }
         service.service(reqBean).then(function (result) {
-        _vm.searchResult = result.result;
+        _vm.testResult = result.result;
         })
     };
     //查询数据库
@@ -68,11 +72,29 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
         }
         service.service(reqBean).then(function (result) {
             if (result.status == 1){
-                _vm.DBResult = "this is a person , id is:"+ result.data.id+ " name is :" + result.data.personname;
+                _vm.searchResult = "this is a person , id is:"+ result.data.id+ " name is :" + result.data.personname;
             }else{
-                _vm.DBResult = "调用失败";
+                _vm.searchResult = "调用失败";
             }
+        })
+    }
 
+    function insertDB(){
+        var data = {
+            name:"windyStreet",
+            mobile:"13129959233"
+        }
+        var reqBean = {
+            serviceName:"insertDB",
+            serviceVersion:"1.0.0",
+            serviceData:data,
+        }
+        service.service(reqBean).then(function (result) {
+            if (result.status == 1){
+                _vm.insertResult = "add info";
+            }else{
+                _vm.insertResult = "调用失败";
+            }
         })
     }
 });
