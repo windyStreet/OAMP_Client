@@ -26,4 +26,3 @@ PR.prototype = {
     msg:"init msg",
     data:null
 };
-
