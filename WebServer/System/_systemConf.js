@@ -6,10 +6,10 @@ __System.pgMaxPoolNum=20;
 __System.pgMaxWaitTime=3000;
 __System.dataSource={
     user:'postgres',
-    database:'nodeJS',
-    password:'123456',
-    host:'localhost',
-    port:5432
+    database:'NodeJS',
+    password:'longrise',
+    host:'192.168.7.212',
+    port:54320
 };
 
 global._ResultCode={
