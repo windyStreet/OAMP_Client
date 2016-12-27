@@ -1,0 +1,151 @@
+<%- include('header.html') %>
+<div class="main layoutMid ms-controller" ms-controller="info">
+  <div class="info_firbox mb_48 clear">
+    <div class="info_banner fl">
+      <div id="slideBox" class="slideBox">
+        <div class="hd">
+          <ul class="clear">
+            <!--<li ms-repeat="rollpic"></li>-->
+          </ul>
+        </div>
+        <div class="bd">
+          <ul>
+            <%if(rollpic){
+              for(var i=0;i<rollpic.length;i++){
+            %>
+                <li><a href="javascript:;" ><img src="<%=rollpic[i].cdnurl%>" /></a></li>
+            <%
+              }
+            }%>
+          </ul>
+        </div>
+        <a class="prev" href="javascript:void(0)"></a>
+        <a class="next" href="javascript:void(0)"></a>
+      </div>
+    </div>
+    <div class="listblock01 fr">
+      <p class="list01_title">最新公告</p>
+      <ul class="list01">
+        <%if(notice)
+        {
+          for(var i=0;i<notice.length;i++)
+          {%>
+          <li><a href="info/details/<%=notice[i].newscontentid %>" ><%=notice[i].newstitle %></a><span><%=notice[i].updatetime.substring(0,10) %></span> </li>
+          <%}
+        }%>
+      </ul>
+    </div>
+  </div>
+  <div class="info_secbox clear">
+    <div class="content fl">
+      <div class="module clear">
+        <div class="info_classify fl">
+          <div class="info_tags">
+            <ul>
+                <%if(infoclassify && list)
+                {
+                  for(var i=0;i<infoclassify.length;i++)
+                  {
+                    var classifyid = infoclassify[i].id;
+                    var classify = infoclassify[i].infoclassify;
+                    if(classifyid==1){
+                %>
+              <li><a class="on"  href="javascript:;"  ms-click="@classifyChange('<%=list.pagecount%>','<%=classifyid%>','<%=classify%>',$event)"><%=classify %></a></li>
+                <%
+                    }else{
+                %>
+              <li><a href="javascript:;" ms-click="@classifyChange('<%=list.pagecount%>','<%=classifyid%>','<%=classify%>',$event)" ><%=classify %></a></li>
+                <%
+                    }
+                %>
+                <%
+                  classifyid=classify=null;
+                  }
+                }%>
+
+            </ul>
+          </div>
+          <div class="post"><a  href="javascript:;">[我要投稿]</a> </div>
+          <div class="qrcode_box">
+            <p>保宝网服务号</p>
+            <img src="../img/code.jpg" />
+          </div>
+        </div>
+        <div class="info_listbox fr">
+          <p class="list01_title" style="color: #f8991d;" >{{@curclassifyname}}</p>
+          <ul class="info_list" ms-if="@listshow">
+           <%if(list){
+              var infolist=list.result;
+             for(var i=0;i<infolist.length;i++){
+            %>
+            <li>
+              <div class="info_title">
+                <span class="info_tag"><%=infolist[i].classifynodename %></span>
+                <a href="info/details/<%=infolist[i].id %>" ><%=infolist[i].title %><img  src="../img/hotnew.gif" /> </a>
+              </div>
+              <div class="info_content_block clear">
+                <!--<a class="info_content_img"  href="javascript:;">-->
+                  <!--<img  src=""/>-->
+                <!--</a>-->
+                <span class="info_content"><%=infolist[i].newstext.substring(0,120)%><a class="info_more a_hover"  href="javascript:;">查看详情</a> </span></div>
+              <div class="fri_action clear mb_5">
+                <span class="mr-10 fs-14 c-999"><%=infolist[i].createtime.substring(0,16)%></span>
+                <a class="action assist" href="javascript:;" ms-click="@praise">
+                  <i class="text">赞</i>
+                  <i class="numbox">
+                    (
+                    <i class="num"><%=infolist[i].praisenum%></i>
+                    )
+                  </i>
+                </a>
+                <a class="action comments"  href="javascript:;">评论(<i class="Num"><%=infolist[i].reviewnum%></i>)</a>
+                <a class="action share" href="javascript:;">分享</a>
+                <a class="action col" href="javascript:;">收藏</a>
+              </div>
+            </li>
+            <%
+             }
+           }%>
+
+          </ul>
+          <ul class="info_list">
+            <li ms-for="el in @list">
+              <div class="info_title">
+                <span class="info_tag">{{el.classifynodename}}</span>
+                <a href="" >{{el.title}}<img  ms-if="@isshow" src="../img/hotnew.gif" /> </a>
+              </div>
+              <div class="info_content_block clear">
+                <!--<a class="info_content_img"  href="javascript:;">-->
+                <!--<img  src=""/>-->
+                <!--</a>-->
+                <span class="info_content">{{el.newstext|truncate(120)}}<a class="info_more a_hover"  href="javascript:;">查看详情</a> </span></div>
+              <div class="fri_action clear mb_5">
+                <span class="mr-10 fs-14 c-999">{{el.createtime|truncate(16,"")}}</span>
+                <a class="action assist" href="javascript:;" ms-click="@praise">
+                  <i class="text">赞</i>
+                  <i class="numbox">
+                    (
+                    <i class="num">{{el.praisenum}}</i>
+                    )
+                  </i>
+                </a>
+                <a class="action comments"  href="javascript:;">评论(<i class="Num">{{el.reviewnum}}</i>)</a>
+                <a class="action share" href="javascript:;">分享</a>
+                <a class="action col" href="javascript:;">收藏</a>
+              </div>
+            </li>
+          </ul>
+
+          <%if(list&&list.pagecount>1){%>
+            <div class="load_more" ms-if="@ismore"><a  href="javascript:;" ms-click="@loadmore"><em>+ </em>加载更多</a> </div>
+          <%}%>
+
+        </div>
+      </div>
+    </div>
+    <div class="sidebar fr"></div>
+  </div>
+</div>
+
+<%- include('footer.html') %>
+<script data-main="/control/init/info.init" src="/lib/require.2.3.2.js"></script>

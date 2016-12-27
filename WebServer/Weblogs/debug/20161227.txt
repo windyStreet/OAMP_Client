@@ -1,0 +1,427 @@
+[2016-12-27 09:25:32.733] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-27 09:25:35.401] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:25:35.475] [DEBUG] logDebug - Exec SQL:select id , personname from personx  limit 1 offset 2
+[2016-12-27 09:25:35.476] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 09:32:00.533] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-27 09:32:06.094] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:32:06.153] [DEBUG] logDebug - Exec SQL:select id , personname from personx  limit 1 offset 2
+[2016-12-27 09:32:06.153] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 09:32:26.549] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-27 09:32:27.506] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:32:32.699] [DEBUG] logDebug - Exec SQL:select id , personname from personx  limit 1 offset 2
+[2016-12-27 09:32:32.699] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 09:34:09.449] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:36:49.209] [DEBUG] logDebug - Exec SQL:select id , personname from personx  limit 1 offset 2
+[2016-12-27 09:36:49.212] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 09:37:04.050] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:38:15.401] [DEBUG] logDebug - Exec SQL:select id , personname from personx  limit 1 offset 2
+[2016-12-27 09:38:15.402] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 09:38:18.848] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:38:55.436] [DEBUG] logDebug - Exec SQL:select id , personname from personx  limit 1 offset 2
+[2016-12-27 09:38:55.437] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 09:39:31.229] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:42:18.119] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:42:37.423] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = '$1' or id = '$2'
+[2016-12-27 09:42:37.424] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 09:42:43.164] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:44:03.874] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:44:17.269] [DEBUG] logDebug - $1
+[2016-12-27 09:44:17.269] [DEBUG] logDebug - $2
+[2016-12-27 09:44:36.353] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:44:36.353] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 09:45:23.665] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:45:33.893] [DEBUG] logDebug - $1
+[2016-12-27 09:45:33.894] [DEBUG] logDebug - $2
+[2016-12-27 09:45:36.954] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:45:36.955] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 09:46:17.721] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:46:17.726] [DEBUG] logDebug - select is ready exec
+[2016-12-27 09:46:22.864] [DEBUG] logDebug - $1
+[2016-12-27 09:46:22.864] [DEBUG] logDebug - $2
+[2016-12-27 09:46:22.864] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:46:22.864] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 09:51:03.601] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:51:03.604] [DEBUG] logDebug - select is ready exec
+[2016-12-27 09:51:03.649] [DEBUG] logDebug - $1
+[2016-12-27 09:51:03.649] [DEBUG] logDebug - $2
+[2016-12-27 09:51:03.649] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:51:03.649] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 09:51:14.060] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:51:14.067] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 09:51:32.051] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:51:32.058] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 09:51:32.105] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:51:32.105] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 09:52:27.241] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:52:27.250] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 09:52:27.300] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:52:27.301] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 09:53:11.098] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:53:11.103] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 09:53:11.104] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 09:53:11.151] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:53:11.152] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 09:54:25.842] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:54:25.849] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 09:54:25.849] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 09:54:25.849] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 09:54:25.849] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 09:54:25.900] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:54:25.901] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 09:54:45.890] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 09:54:45.896] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 09:54:45.896] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 09:54:45.897] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 09:54:45.897] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 09:54:45.958] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 09:54:45.959] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 10:05:04.682] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 10:05:04.688] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 10:05:04.688] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 10:05:04.688] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 10:05:04.689] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 10:05:07.790] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 10:05:07.791] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 10:05:30.842] [DEBUG] logDebug - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 11:17:17.134] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 11:17:22.251] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 11:17:22.252] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 11:17:22.252] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 11:17:22.252] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 11:17:25.324] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 11:17:25.324] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 11:17:28.372] [DEBUG] logDebug - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 11:18:17.143] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 11:18:19.216] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 11:18:19.217] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 11:18:19.217] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 11:18:19.217] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 11:18:22.310] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 and id = $2 
+[2016-12-27 11:18:22.310] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 11:18:24.351] [DEBUG] logDebug - []
+[2016-12-27 11:18:51.878] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 11:18:53.933] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 11:18:53.933] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 11:18:53.933] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 11:18:53.934] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 11:18:57.003] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 11:18:57.003] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 11:20:39.534] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 11:20:41.607] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 11:20:41.607] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 11:20:41.607] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 11:20:41.607] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 11:20:44.712] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 11:20:44.713] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 11:21:58.690] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 11:22:00.771] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 11:22:00.772] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 11:22:00.772] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 11:22:00.772] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 11:22:08.888] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 11:22:08.888] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 14:00:41.444] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 14:00:48.585] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 14:00:48.585] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 14:00:48.586] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 14:00:48.586] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 14:00:50.708] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 14:00:50.708] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 14:03:13.699] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 14:03:15.757] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 14:03:15.757] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 14:03:15.757] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 14:03:15.757] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 14:03:20.877] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 14:03:20.877] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 14:03:33.977] [DEBUG] logDebug - 关系 "person" 不存在
+[2016-12-27 14:07:48.304] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 14:07:52.390] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 14:07:52.390] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 14:07:52.391] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 14:07:52.391] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 14:07:56.499] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 14:07:56.500] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 14:08:58.444] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 14:08:58.450] [DEBUG] logDebug - DB_selectOne is ready exec
+[2016-12-27 14:08:58.450] [DEBUG] logDebug - DB_selectOne is ready exec[object Promise]
+[2016-12-27 14:08:58.450] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 14:08:58.450] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 14:08:58.505] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 14:08:58.505] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:19:07.333] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:19:07.340] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 15:19:07.341] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 15:19:55.389] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:19:55.396] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 15:19:55.397] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 15:19:55.448] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 15:19:55.448] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:19:55.455] [DEBUG] logDebug - { status: -1, msg: '关系 "person" 不存在', data: null }
+[2016-12-27 15:20:49.484] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:20:49.490] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 15:20:49.491] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 15:20:49.542] [DEBUG] logDebug - Exec SQL:select id , personname from person where id = $1 and id = $2 
+[2016-12-27 15:20:49.542] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:20:49.546] [DEBUG] logDebug - { status: -1, msg: '关系 "person" 不存在' }
+[2016-12-27 15:21:21.905] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:21:21.911] [DEBUG] logDebug - selectOne is ready exec
+[2016-12-27 15:21:21.911] [DEBUG] logDebug - selectOne is ready exec[object Promise]
+[2016-12-27 15:21:21.965] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 and id = $2 
+[2016-12-27 15:21:21.965] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:21:21.971] [DEBUG] logDebug - { status: 1, msg: 'success', data: [] }
+[2016-12-27 15:22:29.993] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:22:30.049] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 and id = $2 
+[2016-12-27 15:22:30.049] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:22:30.056] [DEBUG] logDebug - { status: 1, msg: 'success', data: [] }
+[2016-12-27 15:24:02.064] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:24:02.120] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 and id = $2 
+[2016-12-27 15:24:02.120] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:24:02.124] [DEBUG] logDebug - { status: 1, msg: 'success', data: [] }
+[2016-12-27 15:24:52.715] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:24:52.769] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 and id = $2 
+[2016-12-27 15:24:52.770] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:25:08.916] [DEBUG] logDebug - { status: 1, msg: 'success', data: [] }
+[2016-12-27 15:25:34.708] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:25:34.764] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:25:34.764] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:26:14.012] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:28:20.482] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:28:20.537] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:28:20.537] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:28:26.596] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:29:16.932] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:29:16.982] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:29:16.982] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:29:19.043] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:32:31.597] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:32:31.676] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:32:31.676] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:32:38.742] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:32:41.872] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-27 15:32:42.604] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:32:42.651] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:32:42.651] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:32:42.654] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:33:23.837] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:33:23.886] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:33:23.886] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:33:23.889] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:33:25.422] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:33:25.470] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:33:25.470] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:33:25.474] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:33:53.764] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:33:53.848] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:33:53.848] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:33:53.854] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:35:04.724] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:35:04.731] [DEBUG] logDebug - { state: 'pending' }
+[2016-12-27 15:35:04.800] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:35:04.800] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:35:04.805] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:35:32.630] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:35:32.636] [DEBUG] logDebug - 123
+[2016-12-27 15:35:32.636] [DEBUG] logDebug - { state: 'pending' }
+[2016-12-27 15:35:32.703] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:35:32.703] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:35:32.710] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:37:36.326] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:37:36.376] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:37:36.377] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:37:36.383] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:37:36.384] [DEBUG] logDebug - 123
+[2016-12-27 15:37:36.384] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:37:52.209] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:37:52.254] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:37:52.255] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:37:52.258] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:37:52.258] [DEBUG] logDebug - 123
+[2016-12-27 15:37:52.258] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:38:01.890] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:38:01.935] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:38:01.936] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:38:01.939] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:38:01.939] [DEBUG] logDebug - 123
+[2016-12-27 15:38:01.939] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:39:15.691] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:39:15.743] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:39:15.744] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:39:15.750] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:39:15.751] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:40:12.147] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:40:12.198] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:40:12.198] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:40:12.204] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:40:12.206] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:40:23.576] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:40:23.623] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:40:23.624] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:40:23.627] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:40:23.627] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:40:32.184] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:40:32.234] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:40:32.235] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:40:32.238] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:40:32.239] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:40:33.308] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:40:33.352] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:40:33.352] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:40:33.354] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:40:33.355] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:40:34.662] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:40:34.710] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:40:34.710] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:40:34.713] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:40:34.714] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:40:35.886] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:40:35.929] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:40:35.929] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:40:35.932] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:40:35.933] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:40:36.590] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:40:36.633] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:40:36.633] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:40:36.637] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:40:36.638] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:41:03.331] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:41:03.376] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:41:03.376] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:41:03.379] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:41:03.379] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:42:56.274] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:42:56.320] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:42:56.320] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:42:56.322] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:42:56.323] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 15:46:28.842] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 15:46:28.896] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 15:46:28.896] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 15:46:28.902] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 15:46:28.904] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }

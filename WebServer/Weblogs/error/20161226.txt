@@ -1,0 +1,705 @@
+[2016-12-26 11:22:30.240] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:30.240] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:30.240] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:30.242] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:30.242] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:30.243] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:30.243] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:30.243] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:30.243] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:30.243] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:30.244] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:30.244] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:36.919] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:36.920] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:36.920] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:36.921] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:36.923] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:36.923] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:36.923] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:36.923] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:36.924] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:36.924] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:36.924] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:36.925] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:38.304] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:38.306] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:38.306] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:38.306] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:38.306] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:38.307] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:38.307] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:38.307] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:38.307] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:38.308] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:38.309] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:38.309] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:39.377] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:39.378] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:39.378] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:39.378] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:39.378] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:39.380] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:39.380] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:39.380] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:39.380] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:39.380] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:39.381] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:39.381] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:39.963] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:39.963] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:39.963] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:39.964] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:39.964] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:39.964] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:39.964] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:39.964] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:39.964] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:39.964] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:39.964] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:39.964] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.186] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:40.186] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.186] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.186] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:40.186] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.187] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.187] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:40.188] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.188] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.188] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:40.188] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:40.188] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.379] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:40.379] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.379] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.379] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:40.379] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.379] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.379] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:40.379] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.379] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.381] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:40.381] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:40.381] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.564] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:40.564] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.564] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.564] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:40.564] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.564] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.565] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:40.565] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.565] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.565] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:40.565] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:40.565] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.720] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:40.721] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.721] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.721] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:40.721] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.721] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.721] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:40.721] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.721] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.721] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:40.721] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:40.722] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.851] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:40.851] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.851] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.851] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:40.851] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.851] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.851] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:40.851] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:40.851] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:40.851] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:40.851] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:40.852] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:41.032] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:41.033] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:41.033] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:41.033] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:41.033] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:41.033] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:41.033] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:41.033] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:41.033] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:41.034] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:41.034] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:41.034] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:49.941] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:22:49.942] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:22:49.942] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:49.942] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:22:49.942] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:22:49.942] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:49.942] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:22:49.942] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:22:49.942] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:22:49.942] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:22:49.942] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:22:49.942] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:25:07.110] [ERROR] logError - undefined/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:25:07.111] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:25:07.111] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=rollPicture&version=1.0.0"
+[2016-12-26 11:25:07.112] [ERROR] logError - undefined/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:25:07.112] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:25:07.113] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=noticeList&version=1.0.0"
+[2016-12-26 11:25:07.113] [ERROR] logError - undefined/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:25:07.113] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:25:07.113] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsClassify&version=1.0.0"
+[2016-12-26 11:25:07.113] [ERROR] logError - undefined/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:25:07.113] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:25:07.113] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsList&version=1.0.0"
+[2016-12-26 11:25:07.490] [ERROR] logError - undefined/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:25:07.490] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:25:07.490] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=rollPicture&version=1.0.0"
+[2016-12-26 11:25:07.491] [ERROR] logError - undefined/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:25:07.491] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:25:07.491] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=noticeList&version=1.0.0"
+[2016-12-26 11:25:07.491] [ERROR] logError - undefined/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:25:07.491] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:25:07.492] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsClassify&version=1.0.0"
+[2016-12-26 11:25:07.492] [ERROR] logError - undefined/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:25:07.492] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:25:07.492] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsList&version=1.0.0"
+[2016-12-26 11:25:08.825] [ERROR] logError - undefined/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:25:08.825] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:25:08.825] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=rollPicture&version=1.0.0"
+[2016-12-26 11:25:08.825] [ERROR] logError - undefined/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:25:08.826] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:25:08.826] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=noticeList&version=1.0.0"
+[2016-12-26 11:25:08.827] [ERROR] logError - undefined/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:25:08.827] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:25:08.827] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsClassify&version=1.0.0"
+[2016-12-26 11:25:08.827] [ERROR] logError - undefined/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:25:08.827] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:25:08.828] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsList&version=1.0.0"
+[2016-12-26 11:25:09.233] [ERROR] logError - undefined/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:25:09.234] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.234] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=rollPicture&version=1.0.0"
+[2016-12-26 11:25:09.234] [ERROR] logError - undefined/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:25:09.234] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.234] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=noticeList&version=1.0.0"
+[2016-12-26 11:25:09.234] [ERROR] logError - undefined/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:25:09.234] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.234] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsClassify&version=1.0.0"
+[2016-12-26 11:25:09.234] [ERROR] logError - undefined/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:25:09.234] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:25:09.236] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsList&version=1.0.0"
+[2016-12-26 11:25:09.545] [ERROR] logError - undefined/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:25:09.546] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.546] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=rollPicture&version=1.0.0"
+[2016-12-26 11:25:09.546] [ERROR] logError - undefined/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:25:09.547] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.547] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=noticeList&version=1.0.0"
+[2016-12-26 11:25:09.548] [ERROR] logError - undefined/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:25:09.548] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.548] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsClassify&version=1.0.0"
+[2016-12-26 11:25:09.548] [ERROR] logError - undefined/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:25:09.548] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:25:09.548] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsList&version=1.0.0"
+[2016-12-26 11:25:09.963] [ERROR] logError - undefined/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:25:09.963] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.963] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=rollPicture&version=1.0.0"
+[2016-12-26 11:25:09.963] [ERROR] logError - undefined/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:25:09.964] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.964] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=noticeList&version=1.0.0"
+[2016-12-26 11:25:09.964] [ERROR] logError - undefined/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:25:09.964] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:25:09.964] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsClassify&version=1.0.0"
+[2016-12-26 11:25:09.964] [ERROR] logError - undefined/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:25:09.964] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:25:09.964] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsList&version=1.0.0"
+[2016-12-26 11:26:08.646] [ERROR] logError - undefined/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:08.646] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:08.646] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=rollPicture&version=1.0.0"
+[2016-12-26 11:26:08.647] [ERROR] logError - undefined/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:08.647] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:08.647] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=noticeList&version=1.0.0"
+[2016-12-26 11:26:08.647] [ERROR] logError - undefined/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:08.647] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:08.647] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsClassify&version=1.0.0"
+[2016-12-26 11:26:08.647] [ERROR] logError - undefined/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:08.648] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:08.648] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: Invalid URI "undefined/services/registry?name=newsList&version=1.0.0"
+[2016-12-26 11:26:24.039] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:24.039] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:24.039] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:24.040] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:24.041] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:24.041] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:24.041] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:24.041] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:24.042] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:24.042] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:24.042] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:24.042] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:26.675] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:26.676] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:26.677] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:26.678] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:26.679] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:26.680] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:26.680] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:26.680] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:26.681] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:26.681] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:26.681] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:26.682] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:27.854] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:27.854] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:27.854] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:27.854] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:27.854] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:27.855] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:27.855] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:27.855] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:27.855] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:27.855] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:27.855] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:27.855] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:29.312] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:29.313] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:29.313] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:29.313] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:29.313] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:29.313] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:29.313] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:29.313] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:29.313] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:32.155] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:32.155] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:32.155] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:32.155] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:32.155] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:32.155] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:32.155] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:32.156] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:32.156] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:32.156] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:32.156] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:32.156] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:33.107] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:33.107] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:33.107] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:33.107] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:33.107] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:33.107] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:33.107] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:33.107] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:33.107] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:33.107] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:33.107] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:33.107] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:33.887] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:33.887] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:33.887] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:33.887] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:33.887] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:33.888] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:33.888] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:33.888] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:33.888] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:33.888] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:33.888] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:33.888] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:34.723] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:34.723] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:34.723] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:34.723] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:34.724] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:34.724] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:34.724] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:34.724] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:34.724] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:34.724] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:34.724] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:34.724] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:35.346] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:35.346] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:35.346] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:35.346] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:35.346] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:35.346] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:35.346] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:35.347] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:35.347] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:36.693] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:36.693] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:36.693] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:36.693] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:36.693] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:36.693] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:36.693] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:36.693] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:36.693] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:37.569] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:37.570] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:37.570] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:37.570] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:37.570] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:37.570] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:37.571] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:37.571] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:37.571] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:38.285] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:38.285] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:38.285] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:38.285] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:38.285] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:38.285] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:38.286] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:38.286] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:38.286] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:38.954] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:38.954] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:38.955] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:38.955] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:38.955] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:38.955] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:38.956] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:38.956] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:38.956] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:46.945] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:46.946] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:46.946] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:46.947] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:46.948] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:46.948] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:46.949] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:46.949] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:46.949] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:46.949] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:46.949] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:46.949] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:48.221] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:26:48.221] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:48.222] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:48.222] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:26:48.223] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:26:48.223] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:48.223] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:26:48.223] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:26:48.223] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:48.223] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:48.223] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:48.224] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:48.901] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:48.902] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:48.902] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:49.496] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:49.496] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:49.497] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:50.051] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:50.051] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:50.052] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:50.526] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:50.526] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:50.526] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:50.964] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:26:50.965] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:26:50.978] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:26:50.990] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/news/rollPicture
+[2016-12-26 11:26:50.990] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:26:50.990] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect EADDRINUSE 192.168.3.64:8080
+[2016-12-26 11:27:14.792] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:27:14.792] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:27:14.792] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:14.793] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:27:14.793] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:27:14.794] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect EADDRINUSE 192.168.3.64:8080
+[2016-12-26 11:27:14.801] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/news/classify
+[2016-12-26 11:27:14.801] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:27:14.801] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect EADDRINUSE 192.168.3.64:8080
+[2016-12-26 11:27:27.761] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:27:27.761] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:27:27.761] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:27.762] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:27:27.762] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:27:27.762] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:28.771] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:27:28.771] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:27:28.772] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:27:28.772] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:27:28.773] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:27:28.773] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:27:49.463] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:27:49.463] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:27:49.463] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:49.464] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:27:49.464] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:27:49.464] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:49.464] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:27:49.464] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:27:49.464] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:49.464] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:27:49.464] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:27:49.464] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:53.609] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:27:53.609] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:27:53.609] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:53.609] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:27:53.610] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:27:53.610] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:54.622] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:27:54.623] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:27:54.623] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:27:54.626] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:27:54.626] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:27:54.626] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:27:55.062] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:27:55.062] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:27:55.062] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:55.062] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:27:55.062] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:27:55.063] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:56.063] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:27:56.063] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:27:56.064] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:27:56.072] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:27:56.072] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:27:56.073] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:27:57.270] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:27:57.272] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:27:57.273] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:57.274] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:27:57.274] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:27:57.274] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:57.274] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:27:57.274] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:27:57.274] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:57.275] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:27:57.275] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:27:57.275] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:58.740] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:27:58.740] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:27:58.740] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:58.741] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:27:58.741] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:27:58.742] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:58.742] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:27:58.742] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:27:58.742] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:27:59.741] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:27:59.741] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:27:59.741] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:28:00.314] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:28:00.315] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:28:00.315] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:00.315] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:28:00.315] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:28:00.315] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:00.315] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:28:00.315] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:28:00.315] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:01.321] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:28:01.321] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:28:01.321] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:28:07.959] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:28:07.960] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:28:07.961] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:07.961] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:28:07.961] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:28:07.961] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:07.961] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:28:07.961] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:28:07.961] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:08.964] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:28:08.964] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:28:08.964] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:08.964] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:28:08.965] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:28:08.965] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:08.965] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:28:08.965] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:28:08.965] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:08.966] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:28:08.966] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:28:08.966] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:28:09.967] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:28:09.967] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:28:09.968] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:28:10.170] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:28:10.171] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:28:10.171] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:10.171] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:28:10.171] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:28:10.171] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:10.171] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:28:10.171] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:28:10.171] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:10.171] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:28:10.171] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:28:10.171] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:11.247] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:28:11.248] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:28:11.248] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:11.248] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:28:11.249] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:28:11.249] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:11.249] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:28:11.249] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:28:11.249] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:11.249] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:28:11.249] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:28:11.249] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:12.441] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-26 11:28:12.441] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-26 11:28:12.442] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:12.442] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-26 11:28:12.442] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-26 11:28:12.442] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:28:13.441] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-26 11:28:13.441] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-26 11:28:13.441] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:28:13.442] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-26 11:28:13.443] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-26 11:28:13.443] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-26 11:29:00.589] [ERROR] logError - /LUPDP/test1  404
+[2016-12-26 11:29:04.223] [ERROR] logError - /LUPDP/test1  404
+[2016-12-26 11:29:05.315] [ERROR] logError - /LUPDP/test1  404
+[2016-12-26 11:37:28.670] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=test_search&version=1.0.0
+[2016-12-26 11:37:28.672] [ERROR] logError - {"service":"test_search","version":"1.0.0"}
+[2016-12-26 11:37:28.672] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:38:05.222] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=test_search&version=1.0.0
+[2016-12-26 11:38:05.222] [ERROR] logError - {"service":"test_search","version":"1.0.0"}
+[2016-12-26 11:38:05.223] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 11:42:01.536] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:42:01.536] [ERROR] logError - prams
+[2016-12-26 11:42:47.592] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:42:47.593] [ERROR] logError - prams
+[2016-12-26 11:42:59.040] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:42:59.040] [ERROR] logError - prams
+[2016-12-26 11:43:16.531] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:43:16.533] [ERROR] logError - prams
+[2016-12-26 11:56:58.046] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:56:58.047] [ERROR] logError - prams
+[2016-12-26 11:58:02.807] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:58:02.807] [ERROR] logError - prams
+[2016-12-26 11:58:08.752] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:58:08.752] [ERROR] logError - prams
+[2016-12-26 11:58:50.040] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:58:50.040] [ERROR] logError - prams
+[2016-12-26 11:58:51.997] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:58:51.997] [ERROR] logError - prams
+[2016-12-26 11:59:22.015] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 11:59:22.015] [ERROR] logError - prams
+[2016-12-26 12:00:33.367] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:00:33.368] [ERROR] logError - prams
+[2016-12-26 12:00:42.752] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:00:42.752] [ERROR] logError - prams
+[2016-12-26 12:00:48.681] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:00:48.681] [ERROR] logError - prams
+[2016-12-26 12:02:59.045] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:02:59.045] [ERROR] logError - prams
+[2016-12-26 12:04:05.441] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:04:05.442] [ERROR] logError - prams
+[2016-12-26 12:04:54.147] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:04:54.149] [ERROR] logError - prams
+[2016-12-26 12:05:15.651] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:05:15.651] [ERROR] logError - prams
+[2016-12-26 12:07:47.501] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:07:47.501] [ERROR] logError - prams
+[2016-12-26 12:09:57.401] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:09:57.401] [ERROR] logError - prams
+[2016-12-26 12:10:14.160] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:10:14.161] [ERROR] logError - prams
+[2016-12-26 12:11:08.917] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:11:08.918] [ERROR] logError - prams
+[2016-12-26 12:11:19.173] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:11:19.173] [ERROR] logError - prams
+[2016-12-26 12:11:26.971] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:11:26.971] [ERROR] logError - prams
+[2016-12-26 12:11:43.752] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:11:43.752] [ERROR] logError - prams
+[2016-12-26 12:15:46.246] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:15:46.247] [ERROR] logError - prams
+[2016-12-26 12:15:48.968] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:15:48.968] [ERROR] logError - prams
+[2016-12-26 12:15:50.147] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:15:50.147] [ERROR] logError - prams
+[2016-12-26 12:15:51.289] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:15:51.289] [ERROR] logError - prams
+[2016-12-26 12:15:52.342] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:15:52.342] [ERROR] logError - prams
+[2016-12-26 12:17:28.677] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:17:28.677] [ERROR] logError - prams
+[2016-12-26 12:18:05.322] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:18:05.322] [ERROR] logError - prams
+[2016-12-26 12:18:06.265] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:18:06.265] [ERROR] logError - prams
+[2016-12-26 12:18:06.617] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:18:06.617] [ERROR] logError - prams
+[2016-12-26 12:19:09.177] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:19:09.177] [ERROR] logError - prams
+[2016-12-26 12:19:35.854] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:19:35.855] [ERROR] logError - prams
+[2016-12-26 12:19:36.811] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:19:36.811] [ERROR] logError - prams
+[2016-12-26 12:19:37.992] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:19:37.992] [ERROR] logError - prams
+[2016-12-26 12:19:38.910] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:19:38.910] [ERROR] logError - prams
+[2016-12-26 12:19:39.736] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:19:39.736] [ERROR] logError - prams
+[2016-12-26 12:19:43.143] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:19:43.143] [ERROR] logError - prams
+[2016-12-26 12:22:16.677] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:22:16.677] [ERROR] logError - prams
+[2016-12-26 12:22:19.573] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:22:19.573] [ERROR] logError - prams
+[2016-12-26 12:22:40.833] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:22:40.834] [ERROR] logError - prams
+[2016-12-26 12:22:53.213] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 12:22:53.213] [ERROR] logError - prams
+[2016-12-26 14:28:43.015] [ERROR] logError - 非法请求!
+[2016-12-26 14:29:35.601] [ERROR] logError - 非法请求!
+[2016-12-26 14:29:38.562] [ERROR] logError - 非法请求!
+[2016-12-26 14:29:46.287] [ERROR] logError - 非法请求!
+[2016-12-26 14:29:59.779] [ERROR] logError - 非法请求!
+[2016-12-26 14:31:42.818] [ERROR] logError - 非法请求!
+[2016-12-26 14:32:00.516] [ERROR] logError - 非法请求!
+[2016-12-26 15:00:46.514] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=test&version=1.0.0
+[2016-12-26 15:00:46.515] [ERROR] logError - {"service":"test","version":"1.0.0","data":{"key1":"value1","key2":"value2","key3":"value3"}}
+[2016-12-26 15:00:46.515] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ENOBUFS 192.168.3.64:8080 - Local (undefined:undefined)
+[2016-12-26 15:11:02.063] [ERROR] logError - 方法'test'在node_services中不存在!
+[2016-12-26 15:14:57.518] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 15:14:57.518] [ERROR] logError - prams
+[2016-12-26 15:14:59.620] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 15:14:59.620] [ERROR] logError - prams
+[2016-12-26 15:15:01.017] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 15:15:01.018] [ERROR] logError - prams
+[2016-12-26 15:15:02.653] [ERROR] logError - xxxxxxxxxx
+[2016-12-26 15:15:02.653] [ERROR] logError - prams
+[2016-12-26 15:18:12.408] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:18:13.476] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:18:14.156] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:18:48.565] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:19:00.171] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:23:19.317] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:23:24.436] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:23:49.324] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:24:01.787] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:24:05.577] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:24:07.283] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:24:10.096] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:31:54.793] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:32:20.386] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:32:27.764] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:32:30.325] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:32:32.389] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:34:10.953] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:34:12.378] [ERROR] logError - prams
+[2016-12-26 15:34:24.330] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:34:25.432] [ERROR] logError - prams
+[2016-12-26 15:35:40.462] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:35:41.436] [ERROR] logError - prams
+[2016-12-26 15:35:51.752] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:35:53.539] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 15:36:24.254] [ERROR] logError - prams
+[2016-12-26 15:38:01.667] [ERROR] logError - 方法'searchDb'在node_services中不存在!
+[2016-12-26 16:28:04.611] [ERROR] logError - 方法'searchDB'在node_services中不存在!

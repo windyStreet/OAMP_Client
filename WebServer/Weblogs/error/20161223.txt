@@ -1,0 +1,14 @@
+[2016-12-23 15:05:14.608] [ERROR] logError - /LUPDP/info/details/@serveruirl@LEAP/Download/default/2016/11/7/f22120029cc543e99c0c3c48150d3689.png  404
+[2016-12-23 15:09:36.375] [ERROR] logError - 23222
+[2016-12-23 16:26:34.648] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsList&version=1.0.0
+[2016-12-23 16:26:34.648] [ERROR] logError - {"service":"newsList","version":"1.0.0","data":{"userid":null,"pageNum":1,"pageSize":10,"classifyid":null}}
+[2016-12-23 16:26:34.648] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-23 16:26:34.648] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=newsClassify&version=1.0.0
+[2016-12-23 16:26:34.648] [ERROR] logError - {"service":"newsClassify","version":"1.0.0","data":null}
+[2016-12-23 16:26:34.648] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-23 16:26:34.648] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=noticeList&version=1.0.0
+[2016-12-23 16:26:34.648] [ERROR] logError - {"service":"noticeList","version":"1.0.0","data":null}
+[2016-12-23 16:26:34.648] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080
+[2016-12-23 16:26:34.648] [ERROR] logError - http://192.168.3.64:8080/JerseyDemo/api/services/registry?name=rollPicture&version=1.0.0
+[2016-12-23 16:26:34.648] [ERROR] logError - {"service":"rollPicture","version":"1.0.0","data":null}
+[2016-12-23 16:26:34.648] [ERROR] logError - 远程接口调用异常(解决方案:1.检查远程接口是否启用;2.检查本地系统配置)-->>Error: connect ECONNREFUSED 192.168.3.64:8080

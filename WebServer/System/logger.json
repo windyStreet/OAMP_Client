@@ -1,0 +1,24 @@
+{
+  "baseDir": null,
+  "commonAtt": {
+    "type": "dateFile",
+    "absolute": true,
+    "alwaysIncludePattern": true
+  },
+  "appenders": [
+    {"type": "console"},
+    {"pattern": "console/yyyyMMdd.txt","category": "console"},
+    {"pattern": "debug/yyyyMMdd.txt","category": "logDebug"},
+    {"pattern": "info/yyyyMMdd.txt", "category": "logInfo"},
+    {"pattern": "warn/yyyyMMdd.txt","category": "logWarn"},
+    {"pattern": "error/yyyyMMdd.txt","category": "logError"}
+  ],
+  "replaceConsole": true,
+  "levels": {
+    "logDebug": "DEBUG",
+    "logInfo": "DEBUG",
+    "logWarn": "DEBUG",
+    "logError": "DEBUG",
+    "console":"DEBUG"
+  }
+}

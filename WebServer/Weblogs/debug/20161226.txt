@@ -1,0 +1,10 @@
+[2016-12-26 15:37:15.820] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-26 16:29:31.296] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-26 16:30:03.801] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-26 16:48:23.989] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-26 16:53:41.582] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-26 16:54:25.845] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-26 16:54:27.698] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-26 18:08:06.450] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-26 18:08:14.198] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-26 18:18:42.525] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }

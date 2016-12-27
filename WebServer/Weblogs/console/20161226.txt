@@ -1,0 +1,575 @@
+[2016-12-26 11:29:00.593] [ERROR] console - Error: Not Found
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:74:15
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:392:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:683:16)
+    at onstat (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:672:14)
+[2016-12-26 11:29:04.225] [ERROR] console - Error: Not Found
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:74:15
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:392:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:683:16)
+    at onstat (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:672:14)
+[2016-12-26 11:29:05.317] [ERROR] console - Error: Not Found
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:74:15
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:392:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:683:16)
+    at onstat (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:672:14)
+[2016-12-26 14:24:00.942] [ERROR] console - Error: Cannot find module '../Services/view_services/test.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\Routes\routeConfig.js:20:5
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+[2016-12-26 14:25:52.020] [ERROR] console - Error: Cannot find module '../Services/view_services/test.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\WebClient\control\Routes\routeConfig.js:20:5
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+[2016-12-26 14:28:43.019] [ERROR] console - TypeError: Cannot read property 'servicesType' of null
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:19:28)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at serveStatic (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+[2016-12-26 14:29:35.611] [ERROR] console - TypeError: Cannot read property 'servicesType' of null
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:19:28)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at serveStatic (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+[2016-12-26 14:29:38.564] [ERROR] console - TypeError: Cannot read property 'servicesType' of null
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:19:28)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at serveStatic (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+[2016-12-26 14:29:57.437] [ERROR] console - TypeError: Cannot read property 'servicesType' of null
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:19:28)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at serveStatic (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+[2016-12-26 14:30:33.877] [ERROR] console - TypeError: Cannot read property 'servicesType' of null
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:19:28)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at serveStatic (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+[2016-12-26 14:31:44.937] [ERROR] console - TypeError: Cannot read property 'servicesType' of null
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:19:28)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at serveStatic (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+[2016-12-26 14:32:29.671] [ERROR] console - TypeError: Cannot read property 'servicesType' of null
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:19:28)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at serveStatic (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+[2016-12-26 14:35:07.260] [ERROR] console - Error: Cannot find module './_systemConfig'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.__System.request (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_proxy.js:9:18)
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:39:18)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+[2016-12-26 14:37:23.294] [ERROR] console - Error: Cannot find module './_systemConfig'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.__System.request (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_proxy.js:9:18)
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:39:18)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+[2016-12-26 14:51:37.783] [ERROR] console - Error: Cannot find module './_systemConfig'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.__System.request (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_proxy.js:9:18)
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:39:18)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+[2016-12-26 14:51:43.057] [ERROR] console - Error: Cannot find module './_systemConfig'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.__System.request (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_proxy.js:9:18)
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:39:18)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+[2016-12-26 14:59:07.976] [INFO] console - 1111111
+[2016-12-26 14:59:07.977] [INFO] console - { host: '127.0.0.1:3000',
+  connection: 'keep-alive',
+  'content-length': '93',
+  accept: 'application/json, text/javascript, */*; q=0.01',
+  origin: 'http://127.0.0.1:3000',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type': 'application/json',
+  referer: 'http://127.0.0.1:3000/LUPDP/test',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6' }
+[2016-12-26 14:59:07.985] [ERROR] console - Error: Cannot find module './_systemConfig'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.__System.request (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_proxy.js:9:44)
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:41:18)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+[2016-12-26 14:59:34.837] [INFO] console - 1111111
+[2016-12-26 14:59:34.838] [INFO] console - { host: '127.0.0.1:3000',
+  connection: 'keep-alive',
+  'content-length': '93',
+  accept: 'application/json, text/javascript, */*; q=0.01',
+  origin: 'http://127.0.0.1:3000',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type': 'application/json',
+  referer: 'http://127.0.0.1:3000/LUPDP/test',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6',
+  cookie: 'SESSIONID=s%3Acbd24120-cb38-11e6-8535-a98358f28617_3000.Ru7qAlKa4gBAR3A%2FKq7bZO9y7kMKUqA8g921Ty%2BuX0w' }
+[2016-12-26 14:59:34.847] [ERROR] console - Error: Cannot find module './_systemConfig'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.__System.request (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_proxy.js:9:44)
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:41:18)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+[2016-12-26 14:59:35.830] [INFO] console - 1111111
+[2016-12-26 14:59:35.830] [INFO] console - { host: '127.0.0.1:3000',
+  connection: 'keep-alive',
+  'content-length': '93',
+  accept: 'application/json, text/javascript, */*; q=0.01',
+  origin: 'http://127.0.0.1:3000',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type': 'application/json',
+  referer: 'http://127.0.0.1:3000/LUPDP/test',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6',
+  cookie: 'SESSIONID=s%3Acbd24120-cb38-11e6-8535-a98358f28617_3000.Ru7qAlKa4gBAR3A%2FKq7bZO9y7kMKUqA8g921Ty%2BuX0w' }
+[2016-12-26 14:59:35.834] [ERROR] console - Error: Cannot find module './_systemConfig'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.__System.request (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_proxy.js:9:44)
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:41:18)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+[2016-12-26 15:00:46.496] [INFO] console - 1111111
+[2016-12-26 15:00:46.497] [INFO] console - { host: '127.0.0.1:3000',
+  connection: 'keep-alive',
+  'content-length': '93',
+  accept: 'application/json, text/javascript, */*; q=0.01',
+  origin: 'http://127.0.0.1:3000',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type': 'application/json',
+  referer: 'http://127.0.0.1:3000/LUPDP/test',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6',
+  cookie: 'SESSIONID=s%3A024094a0-cb39-11e6-860b-e1f3e51d2c7e_3000.u1LX3e6bcnPh7F%2BavDTeB8EbfWsoLrDBXok660orNlU' }
+[2016-12-26 15:06:14.159] [INFO] console - { host: '127.0.0.1:3000',
+  connection: 'keep-alive',
+  'content-length': '93',
+  accept: 'application/json, text/javascript, */*; q=0.01',
+  origin: 'http://127.0.0.1:3000',
+  'x-requested-with': 'XMLHttpRequest',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type': 'application/json',
+  referer: 'http://127.0.0.1:3000/LUPDP/test',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6',
+  cookie: 'SESSIONID=s%3Ac68295c0-cb39-11e6-ab79-3b7b2b5c5bad_3000.IlrRoUtkYARSKKi975mdilvMmxAzsmmESsCftRjskWI' }
+[2016-12-26 15:07:51.186] [INFO] console - { host: '127.0.0.1:3000',
+  connection: 'keep-alive',
+  'content-length': '93',
+  origin: 'http://127.0.0.1:3000',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+  'content-type': 'application/json',
+  accept: 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with': 'XMLHttpRequest',
+  servicestype: 'node',
+  referer: 'http://127.0.0.1:3000/LUPDP/test',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'zh-CN,zh;q=0.8,en;q=0.6',
+  cookie: 'SESSIONID=s%3Affe76cf0-cb39-11e6-b2d2-43e939d9b8b9_3000.%2BmRbETvUpCTo6JPiR7xBt52OywARlEWFHQ8DkDaevJI' }
+[2016-12-26 15:08:31.242] [INFO] console - undefined
+[2016-12-26 15:08:43.359] [INFO] console - node
+[2016-12-26 15:10:43.344] [INFO] console - node
+[2016-12-26 16:28:29.866] [ERROR] console - ReferenceError: prams is not defined
+    at Object.searchDB (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\Services\node_services\test.js:20:23)
+    at Object.exports.post (c:\Users\Administrator\WebstormProjects\express-test-ansy\WebServer\System\_ajax.js:26:73)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:79:11
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:618:15
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:176:3)
+    at router (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at serveStatic (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:75:16)
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+[2016-12-26 16:48:24.003] [ERROR] console - DB connection error { Error: connect ENOBUFS 127.0.0.1:5432 - Local (undefined:undefined)
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at connect (net.js:879:16)
+    at net.js:1008:7
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
+  code: 'ENOBUFS',
+  errno: 'ENOBUFS',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5432 }
+[2016-12-26 16:53:41.596] [ERROR] console - DB connection error { Error: connect ENOBUFS 127.0.0.1:5432 - Local (undefined:undefined)
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at connect (net.js:879:16)
+    at net.js:1008:7
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
+  code: 'ENOBUFS',
+  errno: 'ENOBUFS',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5432 }
+[2016-12-26 16:55:22.925] [ERROR] console - DB connection error { Error: connect ENOBUFS 127.0.0.1:5432 - Local (undefined:undefined)
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at connect (net.js:879:16)
+    at net.js:1008:7
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:62:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:81:10)
+  code: 'ENOBUFS',
+  errno: 'ENOBUFS',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5432 }

@@ -1,0 +1,36 @@
+<%- include('header.html') %>
+<div class="main layoutMid clear mt-30" >
+    <div class="info_main_block">
+        <%if(details){%>
+        <div class="info_title">
+            <span class="info_tag"><%=details.classifynodename%></span>
+            <a  href="javascript:;"><%=details.title%></a>
+        </div>
+        <div class="mt-10 info_title_border">
+            <span class="mr-10 fs-14 c-999">来源：<%=details.newfrom%></span>
+            <span class="mr-10 fs-14 c-999"><%=details.createtime.substring(0,16)%></span>
+            <a class="action comments mr-10"  href="javascript:;">评论(<i class="Num"><%=details.reviewnum%></i>)</a>
+        </div>
+        <div class="info_main_content">
+            <%-details.newcontent%>
+        </div>
+        <%
+        }%>
+    </div>
+
+    <div class="info_side_block">
+        <div class="listblock01 fr">
+            <p class="list01_title">最新公告</p>
+            <ul class="list01">
+                <%if(notice)
+                {
+                for(var i=0;i<notice.length;i++)
+                {%>
+                <li><a href="<%=notice[i].newscontentid %>" ><%=notice[i].newstitle %></a><span><%=notice[i].updatetime.substring(0,10) %></span> </li>
+                <%}
+                }%>
+            </ul>
+        </div>
+    </div>
+</div>
+<%- include('footer.html') %>

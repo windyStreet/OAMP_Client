@@ -1,0 +1,180 @@
+[2016-12-27 09:25:35.599] [INFO] console - [ anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:32:06.157] [INFO] console - [ anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:32:44.779] [INFO] console - [ anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:36:50.248] [INFO] console - [ anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:38:16.442] [INFO] console - [ anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:39:28.529] [INFO] console - [ anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:42:38.466] [INFO] console - []
+[2016-12-27 09:44:39.412] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:45:36.981] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:46:22.868] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:51:03.654] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:51:32.112] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:52:27.307] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:53:11.157] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:54:25.906] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 09:54:45.967] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 10:05:07.795] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 11:17:25.329] [INFO] console - [ anonymous { id: '3', personname: 'CDE' },
+  anonymous { id: '1', personname: 'A\'\'BC' } ]
+[2016-12-27 11:18:22.314] [INFO] console - []
+[2016-12-27 11:20:44.715] [ERROR] console - pg_select error: { error: 关系 "person" 不存在
+    at Connection.parseE (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:554:11)
+    at Connection.parseMessage (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:381:17)
+    at Socket.<anonymous> (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:117:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  name: 'error',
+  length: 110,
+  severity: '错误',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '29',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'src\\backend\\parser\\parse_relation.c',
+  line: '986',
+  routine: 'parserOpenTable' }
+[2016-12-27 11:22:08.890] [ERROR] console - pg_select error: { error: 关系 "person" 不存在
+    at Connection.parseE (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:554:11)
+    at Connection.parseMessage (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:381:17)
+    at Socket.<anonymous> (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:117:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  name: 'error',
+  length: 110,
+  severity: '错误',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '29',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'src\\backend\\parser\\parse_relation.c',
+  line: '986',
+  routine: 'parserOpenTable' }
+[2016-12-27 14:00:50.710] [ERROR] console - pg_select error: { error: 关系 "person" 不存在
+    at Connection.parseE (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:554:11)
+    at Connection.parseMessage (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:381:17)
+    at Socket.<anonymous> (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:117:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  name: 'error',
+  length: 110,
+  severity: '错误',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '29',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'src\\backend\\parser\\parse_relation.c',
+  line: '986',
+  routine: 'parserOpenTable' }
+[2016-12-27 14:03:20.880] [ERROR] console - pg_select error: { error: 关系 "person" 不存在
+    at Connection.parseE (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:554:11)
+    at Connection.parseMessage (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:381:17)
+    at Socket.<anonymous> (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:117:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  name: 'error',
+  length: 110,
+  severity: '错误',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '29',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'src\\backend\\parser\\parse_relation.c',
+  line: '986',
+  routine: 'parserOpenTable' }
+[2016-12-27 14:08:58.509] [ERROR] console - pg_select error: { error: 关系 "person" 不存在
+    at Connection.parseE (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:554:11)
+    at Connection.parseMessage (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:381:17)
+    at Socket.<anonymous> (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\pg\lib\connection.js:117:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:548:20)
+  name: 'error',
+  length: 110,
+  severity: '错误',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '29',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'src\\backend\\parser\\parse_relation.c',
+  line: '986',
+  routine: 'parserOpenTable' }
+[2016-12-27 15:46:07.082] [ERROR] console - Error: Not Found
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\app.js:85:15
+    at Layer.handle [as handle_request] (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:312:13)
+    at c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:330:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:392:12)
+    at next (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:683:16)
+    at onstat (c:\Users\Administrator\WebstormProjects\express-test-ansy\node_modules\send\index.js:672:14)
+    at FSReqWrap.oncomplete (fs.js:123:15)

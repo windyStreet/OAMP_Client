@@ -1,0 +1,38 @@
+{
+  "name": "express_zk",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "compression": "^1.6.2",
+    "connect-redis": "^3.1.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "express-session": "^1.14.2",
+    "file-stream-rotator": "0.0.7",
+    "log4js": "^1.0.1",
+    "morgan": "~1.7.0",
+    "node-uuid": "^1.4.7",
+    "q": "^1.4.1",
+    "redis": "^2.6.3",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-requirejs-optimize": "^1.2.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.0.5",
+    "gulp-uglify": "^2.0.0",
+    "pg": "^6.1.2"
+  }
+}

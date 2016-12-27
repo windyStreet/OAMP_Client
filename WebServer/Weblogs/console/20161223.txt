@@ -1,0 +1,54 @@
+[2016-12-23 14:55:35.660] [ERROR] console - ReferenceError: E:\workSpace_web\express_zk@2016-12-23\WebServer\Views\test.ejs:9
+    7| <body ms-controller="test">
+    8| <div ms-click="@test">123456</div>
+ >> 9| <%=demo%>
+    10| </body>
+    11| </html>
+    12| 
+
+demo is not defined
+    at eval (eval at compile (E:\workSpace_web\express_zk@2016-12-23\node_modules\ejs\lib\ejs.js:481:12), <anonymous>:11:23)
+    at returnedFn (E:\workSpace_web\express_zk@2016-12-23\node_modules\ejs\lib\ejs.js:512:17)
+    at View.exports.renderFile [as engine] (E:\workSpace_web\express_zk@2016-12-23\node_modules\ejs\lib\ejs.js:364:31)
+    at View.render (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\view.js:126:8)
+    at tryRender (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\response.js:960:7)
+    at Object.exports.init (E:\workSpace_web\express_zk@2016-12-23\WebServer\Services\view_services\test.js:11:9)
+    at E:\workSpace_web\express_zk@2016-12-23\WebServer\Routes\routeConfig.js:20:50
+    at Layer.handle [as handle_request] (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\layer.js:95:5)
+    at E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:176:3)
+    at router (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:312:13)
+    at E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:330:12)
+[2016-12-23 15:05:14.612] [ERROR] console - Error: Not Found
+    at E:\workSpace_web\express_zk@2016-12-23\app.js:74:15
+    at Layer.handle [as handle_request] (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:312:13)
+    at E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:271:10)
+    at E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:618:15
+    at next (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:176:3)
+    at router (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:312:13)
+    at E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\workSpace_web\express_zk@2016-12-23\node_modules\express\lib\router\index.js:271:10)
+    at SendStream.error (E:\workSpace_web\express_zk@2016-12-23\node_modules\serve-static\index.js:121:7)
+    at emitOne (events.js:96:13)
+    at SendStream.emit (events.js:188:7)
+    at SendStream.error (E:\workSpace_web\express_zk@2016-12-23\node_modules\send\index.js:275:17)
+    at SendStream.onStatError (E:\workSpace_web\express_zk@2016-12-23\node_modules\send\index.js:392:12)
+    at onstat (E:\workSpace_web\express_zk@2016-12-23\node_modules\send\index.js:674:26)
+    at FSReqWrap.oncomplete (fs.js:123:15)
