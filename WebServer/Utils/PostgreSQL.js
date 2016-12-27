@@ -14,13 +14,25 @@ PostgresSQL.prototype = {
         return p.promise;
     },
     update: function (bean) {
-        return pg_update(bean);
+        var p = Q.defer();
+        pg_update(bean).then(function(result){
+            p.resolve(result);
+        });
+        return p.promise;
     },
     delete: function (bean) {
-        return pg_delete(bean);
+        var p = Q.defer();
+        pg_delete(bean).then(function(result){
+            p.resolve(result);
+        });
+        return p.promise;
     },
     insert: function (bean) {
-        return pg_insert(bean)
+        var p = Q.defer();
+        pg_insert(bean).then(function(result){
+            p.resolve(result);
+        });
+        return p.promise;
     }
 }
 function pg_select(bean) {
@@ -67,16 +79,127 @@ function pg_select(bean) {
 ////////////////////////////////////////////////////////////////////////////////////////
 
 function pg_insert(bean) {
+    var p = Q.defer();
     var pool = new pg.Pool(pg_init(bean));
-    return "xx"
+    pool.connect(function (err, client, done) {
+        var pr = new PR();
+        if (err) {
+            __System.logError('DB connection error',err);
+            pr.status = _ResultCode.exception;
+            pr.msg = err.message
+            p.reject(pr);
+        }
+        var sql = bean.getSQL();
+        var pars = getQueryPars(bean, sql);
+
+        __System.logDebug("Exec SQL:" + sql);
+        __System.logDebug("SQL Pars:" + pars);
+
+        client.query(sql, pars, function (err, result) {
+            done();// 释放连接（将其返回给连接池）
+            if (err) {
+                __System.logError('DB insert error',err);
+                pr.status = _ResultCode.exception;
+                pr.msg = err.message;
+                p.resolve(pr);
+            }
+            if (result){
+                pr.status = _ResultCode.success;
+                pr.msg = "success";
+                pr.data = result.rows;
+                p.resolve(pr);
+            }
+        });
+        pool.on('error', function (err, client) {
+            __System.logError('idle client error',err);
+            pr.status = _ResultCode.exception;
+            pr.msg = err.message;
+            p.resolve(pr);
+        });
+    })
+    return p.promise;
 }
 function pg_update(bean) {
+    var p = Q.defer();
     var pool = new pg.Pool(pg_init(bean));
-    return "xx"
+    pool.connect(function (err, client, done) {
+        var pr = new PR();
+        if (err) {
+            __System.logError('DB connection error',err);
+            pr.status = _ResultCode.exception;
+            pr.msg = err.message
+            p.reject(pr);
+        }
+        var sql = bean.getSQL();
+        var pars = getQueryPars(bean, sql);
+
+        __System.logDebug("Exec SQL:" + sql);
+        __System.logDebug("SQL Pars:" + pars);
+
+        client.query(sql, pars, function (err, result) {
+            done();// 释放连接（将其返回给连接池）
+            if (err) {
+                __System.logError('DB update error',err);
+                pr.status = _ResultCode.exception;
+                pr.msg = err.message;
+                p.resolve(pr);
+            }
+            if (result){
+                pr.status = _ResultCode.success;
+                pr.msg = "success";
+                pr.data = result.rows;
+                p.resolve(pr);
+            }
+        });
+        pool.on('error', function (err, client) {
+            __System.logError('idle client error',err);
+            pr.status = _ResultCode.exception;
+            pr.msg = err.message;
+            p.resolve(pr);
+        });
+    })
+    return p.promise;
 }
 function pg_delete(bean) {
+    var p = Q.defer();
     var pool = new pg.Pool(pg_init(bean));
-    return "xx"
+    pool.connect(function (err, client, done) {
+        var pr = new PR();
+        if (err) {
+            __System.logError('DB connection error',err);
+            pr.status = _ResultCode.exception;
+            pr.msg = err.message
+            p.reject(pr);
+        }
+        var sql = bean.getSQL();
+        var pars = getQueryPars(bean, sql);
+
+        __System.logDebug("Exec SQL:" + sql);
+        __System.logDebug("SQL Pars:" + pars);
+
+        client.query(sql, pars, function (err, result) {
+            done();// 释放连接（将其返回给连接池）
+            if (err) {
+                __System.logError('DB delete error',err);
+                pr.status = _ResultCode.exception;
+                pr.msg = err.message;
+                p.resolve(pr);
+            }
+            if (result){
+                pr.status = _ResultCode.success;
+                pr.msg = "success";
+                pr.data = result.rows;
+                p.resolve(pr);
+            }
+        });
+        pool.on('error', function (err, client) {
+            __System.logError('idle client error',err);
+            pr.status = _ResultCode.exception;
+            pr.msg = err.message;
+            p.resolve(pr);
+        });
+    })
+    return p.promise;
 }
 
 function pg_init(bean) {

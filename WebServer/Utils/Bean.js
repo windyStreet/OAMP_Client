@@ -77,48 +77,42 @@ Bean.prototype = {
             p.resolve(result)
         },function(err){
             p.reject(err);
-        })
+        });
         return p.promise;
     },
     update:function(){
         var p = Q.defer();
         DB_update(this).then(function(result){
             p.resolve(result)
-        },function(err){
-            p.reject(err);
-        })
+        });
         return p.promise;
     },
     insert:function(){
         var p = Q.defer();
         DB_insert(this).then(function(result){
             p.resolve(result)
-        },function(err){
-            p.reject(err);
-        })
+        });
         return p.promise;
     },
     delete:function(){
         var p = Q.defer();
         DB_delete(this).then(function(result){
             p.resolve(result)
-        },function(err){
-            p.reject(err);
-        })
+        });
         return p.promise;
     }
 }
 
-
-//数据库操作，操作成功，添加一个参数
 function DB_selectOne(bean){
     var p = Q.defer()
     var pg = new PostgresSQL();
     pg.select(bean).then(function(result){
-        __System.logDebug(result);
         if (result.status == _ResultCode.success){
-            var res = result.data;
-            result.data = res[0];
+            result.msg = "DB selectOne success";
+            if(result.data.length > 0)
+                result.data = result.data[0];
+            else
+                result.data = null
         }
         p.resolve(result);
     });
@@ -126,22 +120,62 @@ function DB_selectOne(bean){
 }
 
 function DB_selectAll(bean){
+    var p = Q.defer()
     var pg = new PostgresSQL();
-    var result = pg.select(bean);
-    return result;
+    pg.select(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB selectAll success";
+            if(result.data.length > 0)
+                result.data = result.data;
+            else
+                result.data = null
+        }
+        p.resolve(result);
+    });
+    return p.promise;
 }
 function DB_update(bean){
+    var p = Q.defer()
     var pg = new PostgresSQL();
-    var result = pg.update(bean);
-    return result;
+    pg.update(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB update success";
+            if(result.data.length > 0)
+                result.data = result.data;
+            else
+                result.data = null
+        }
+        p.resolve(result);
+    });
+    return p.promise;
 }
 function DB_insert(bean){
+    var p = Q.defer()
     var pg = new PostgresSQL();
-    var result = pg.insert(bean);
-    return result;
+    pg.insert(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB insert success";
+            if(result.data.length > 0)
+                result.data = result.data;
+            else
+                result.data = null
+        }
+        p.resolve(result);
+    });
+    return p.promise;
 }
 function DB_delete(bean){
+    var p = Q.defer()
     var pg = new PostgresSQL();
-    var result = pg.delete(bean);
-    return result;
+    pg.delete(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB delete success";
+            if(result.data.length > 0)
+                result.data = result.data;
+            else
+                result.data = null
+        }
+        p.resolve(result);
+    });
+    return p.promise;
 }
