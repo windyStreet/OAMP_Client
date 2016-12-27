@@ -1,8 +1,10 @@
 /**
  * Created by Administrator on 2016/12/21.
  */
+
 var pg = require('pg');
 var Q = require('q');
+
 global.PostgresSQL = function () {
 };
 PostgresSQL.prototype = {
@@ -87,7 +89,7 @@ function pg_insert(bean) {
         if (err) {
             __System.logError('DB connection error',err);
             pr.status = _ResultCode.exception;
-            pr.msg = err.message
+            pr.msg = err.message;
             p.reject(pr);
         }
         var sql = bean.getSQL();
@@ -117,7 +119,7 @@ function pg_insert(bean) {
             pr.msg = err.message;
             p.resolve(pr);
         });
-    })
+    });
     return p.promise;
 }
 function pg_update(bean) {
@@ -158,7 +160,7 @@ function pg_update(bean) {
             pr.msg = err.message;
             p.resolve(pr);
         });
-    })
+    });
     return p.promise;
 }
 function pg_delete(bean) {
@@ -199,14 +201,14 @@ function pg_delete(bean) {
             pr.msg = err.message;
             p.resolve(pr);
         });
-    })
+    });
     return p.promise;
 }
 
 function pg_init(bean) {
     // 数据库配置
     var dataSource = bean.getDataSuource();
-    var config = {
+    var pgInitConf = {
         user: dataSource['user'],
         database: dataSource['database'],
         password: dataSource['password'],
@@ -215,12 +217,12 @@ function pg_init(bean) {
         // 扩展属性
         max: __System.pgMaxPoolNum, // 连接池最大连接数
         idleTimeoutMillis: __System.pgMaxWaitTime// 连接最大空闲时间 3s
-    }
-    return config;
+    };
+    return pgInitConf;
 }
 
 function getQueryPars(bean, sql) {
-    var results = new Array();
+    var results = [];
     var sqlArray = sql.split(' ');
     for (var i = 0; i < sqlArray.length; i++) {
         if (sqlArray[i].toString().indexOf('$') == 0) {
@@ -232,4 +234,3 @@ function getQueryPars(bean, sql) {
     else
         return null;
 }
-/////////////////////////////////////////////////////////
