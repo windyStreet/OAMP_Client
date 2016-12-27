@@ -34,7 +34,8 @@ PostgresSQL.prototype = {
         });
         return p.promise;
     }
-}
+};
+
 function pg_select(bean) {
     var p = Q.defer();
     var pool = new pg.Pool(pg_init(bean));
@@ -43,7 +44,7 @@ function pg_select(bean) {
         if (err) {
             __System.logError('DB connection error',err);
             pr.status = _ResultCode.exception;
-            pr.msg = err.message
+            pr.msg = err.message;
             p.reject(pr);
         }
         var sql = bean.getSQL();
@@ -73,7 +74,7 @@ function pg_select(bean) {
             pr.msg = err.message;
             p.resolve(pr);
         });
-    })
+    });
     return p.promise;
 }
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -127,7 +128,7 @@ function pg_update(bean) {
         if (err) {
             __System.logError('DB connection error',err);
             pr.status = _ResultCode.exception;
-            pr.msg = err.message
+            pr.msg = err.message;
             p.reject(pr);
         }
         var sql = bean.getSQL();
@@ -168,7 +169,7 @@ function pg_delete(bean) {
         if (err) {
             __System.logError('DB connection error',err);
             pr.status = _ResultCode.exception;
-            pr.msg = err.message
+            pr.msg = err.message;
             p.reject(pr);
         }
         var sql = bean.getSQL();
@@ -204,13 +205,13 @@ function pg_delete(bean) {
 
 function pg_init(bean) {
     // 数据库配置
-    datasource = bean.getDataSuource()
+    var dataSource = bean.getDataSuource();
     var config = {
-        user: datasource['user'],
-        database: datasource['database'],
-        password: datasource['password'],
-        host: datasource['host'],
-        port: datasource['port'],
+        user: dataSource['user'],
+        database: dataSource['database'],
+        password: dataSource['password'],
+        host: dataSource['host'],
+        port: dataSource['port'],
         // 扩展属性
         max: __System.pgMaxPoolNum, // 连接池最大连接数
         idleTimeoutMillis: __System.pgMaxWaitTime// 连接最大空闲时间 3s
