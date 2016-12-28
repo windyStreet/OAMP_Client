@@ -4,30 +4,28 @@
 var Q = require('q');
 global.Bean = function () {};
 Bean.prototype = {
-    //msg:"no msg return",
-    //state:"no state was set",
-    //data:null,
-    //setMsg:function (msg) {
-    //    this.msg = msg;
-    //    return this;
-    //},
-    //getMsg:function(){
-    //    return this.msg;
-    //},
-    //setState:function(state){
-    //    this.state = state;
-    //    return this;
-    //},
-    //getState:function(){
-    //    return this.state
-    //},
-    //setData:function(data){
-    //    this.data = data;
-    //    return this;
-    //},
-    //getData:function(){
-    //    return this.data;
-    //},
+    tableName:null,
+    setTableName:function(tableName){
+        this.tableName = tableName;
+        return this;
+    },
+    getTableName:function () {
+        return this.tableName;
+    },
+    SQLFiled:[],
+    setSQLFiled:function(filedKey,filedValue,relation,group){
+        var filed = {
+            filedKey:filedKey,
+            filedValue:filedValue,
+            relation:relation?relation:null,
+            group:group?group:null
+        }
+        this.SQLFiled.push(filed);
+        return this;
+    },
+    getSQLFiled:function () {
+        this.SQLFiled;
+    },
     SQL:"",
     setSQL:function(SQL){
         this.SQL = SQL;
@@ -100,7 +98,27 @@ Bean.prototype = {
             p.resolve(result)
         });
         return p.promise;
+    },
+    execSQL:function(){
+        var p = Q.defer();
+        DB_execSQL(this).then(function(result){
+            p.resolve(result)
+        });
+        return p.promise;
     }
+}
+
+function DB_execSQL (bean) {
+    var p = Q.defer()
+    var pg = new PostgresSQL();
+    pg.execSQL(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB execSQL success";
+            result.data = result.data;
+        }
+        p.resolve(result);
+    });
+    return p.promise;
 }
 
 function DB_selectOne(bean){

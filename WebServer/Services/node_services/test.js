@@ -2,6 +2,7 @@
  * Created by Administrator on 2016/12/23.
  */
 var Q = require('q');
+var uuid = require('node-uuid');
 
 //数据返回测试
 function test(parms) {
@@ -43,13 +44,20 @@ function insertDB(parms){
     var name = parms.name;
     var mobile = parms.mobile;
     var bean = new Bean();
-    var SQLStr = " insert into personx  ( id ,  personname ,mobile ) values ('123344', $1 , $2 ) ";
-    bean.setSQL(SQLStr);
-    bean.setPlaceholderVar("$1",name);
-    bean.setPlaceholderVar("$2",mobile);
-    bean.selectOne(bean).then(function(result){
+    bean.setSQLFiled("id",uuid.v1().replace(/-/g,""));
+    bean.setSQLFiled("personname",name);
+    bean.setSQLFiled("mobile",mobile);
+    //var SQLStr = " insert into personx  ( id ,  personname , mobile ) values ( $1 , $2 , $3 ) ";
+   // bean.setSQL(SQLStr);
+    //bean.set("id" ,"xxx").jon(m)
+    //bean.set("xx" ,"yyyyy")
+    // bean.setPlaceholderVar("$1",uuid.v1().replace(/-/g,""))
+    // bean.setPlaceholderVar("$2",name);
+    // bean.setPlaceholderVar("$3",mobile);
+    bean.insert(bean).then(function(result){
         if (result.status == _ResultCode.success){
             result.msg = "插入数据到数据库，调用成功";
+            result.data = bean;
         }else{
             result.status = _ResultCode.fail;
             result.msg = "插入数据到数据库，调用失败";

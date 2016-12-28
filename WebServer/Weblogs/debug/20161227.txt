@@ -425,3 +425,78 @@
 [2016-12-27 15:46:28.904] [DEBUG] logDebug - { status: 1,
   msg: '点击调用数据库，调用成功',
   data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 16:21:14.520] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 16:21:14.598] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 16:21:14.598] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 16:21:14.625] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '3', personname: 'CDE' },
+     anonymous { id: '1', personname: 'A\'\'BC' } ] }
+[2016-12-27 16:21:14.629] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '3', personname: 'CDE' } }
+[2016-12-27 16:33:55.215] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 16:33:55.254] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 16:33:55.254] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 16:33:55.261] [DEBUG] logDebug - { status: 1,
+  msg: 'success',
+  data: 
+   [ anonymous { id: '1', personname: 'A\'\'BC' },
+     anonymous { id: '3', personname: 'CDE' } ] }
+[2016-12-27 16:33:55.262] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '1', personname: 'A\'\'BC' } }
+[2016-12-27 16:55:50.591] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 16:55:50.603] [DEBUG] logDebug - Exec SQL: 
+[2016-12-27 16:55:50.604] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 16:55:50.606] [DEBUG] logDebug - { status: 1, msg: '插入数据到数据库，调用成功', data: null }
+[2016-12-27 17:05:11.952] [DEBUG] logDebug - { key1: 'value1', key2: 'value2', key3: 'value3' }
+[2016-12-27 17:05:12.534] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 17:05:12.545] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 17:05:12.546] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 17:05:12.553] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '1', personname: 'A\'\'BC' } }
+[2016-12-27 17:05:13.832] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 17:05:13.839] [DEBUG] logDebug - Exec SQL: 
+[2016-12-27 17:05:13.839] [DEBUG] logDebug - SQL Pars:null
+[2016-12-27 17:05:13.840] [DEBUG] logDebug - { status: 1, msg: '插入数据到数据库，调用成功', data: null }
+[2016-12-27 17:55:40.520] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 17:55:40.533] [DEBUG] logDebug - Exec SQL: insert personx set personname = $1 , mobile = '$2' 
+[2016-12-27 17:55:40.533] [DEBUG] logDebug - SQL Pars:windyStreet
+[2016-12-27 17:55:40.537] [DEBUG] logDebug - { status: 0, msg: '插入数据到数据库，调用失败' }
+[2016-12-27 17:56:27.887] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 17:56:27.899] [DEBUG] logDebug - Exec SQL: insert into personx set personname = $1 , mobile = '$2' 
+[2016-12-27 17:56:27.899] [DEBUG] logDebug - SQL Pars:windyStreet
+[2016-12-27 17:56:27.903] [DEBUG] logDebug - { status: 0, msg: '插入数据到数据库，调用失败' }
+[2016-12-27 17:57:24.204] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 17:57:24.250] [DEBUG] logDebug - Exec SQL: insert into personx set (personname ,mobile ) values ( $1 , $2) 
+[2016-12-27 17:57:24.250] [DEBUG] logDebug - SQL Pars:windyStreet,
+[2016-12-27 17:57:24.254] [DEBUG] logDebug - { status: 0, msg: '插入数据到数据库，调用失败' }
+[2016-12-27 17:57:41.884] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 17:57:41.930] [DEBUG] logDebug - Exec SQL: insert into personx set ( personname ,mobile ) values ( $1 , $2) 
+[2016-12-27 17:57:41.930] [DEBUG] logDebug - SQL Pars:windyStreet,
+[2016-12-27 17:57:41.936] [DEBUG] logDebug - { status: 0, msg: '插入数据到数据库，调用失败' }
+[2016-12-27 17:58:38.891] [DEBUG] logDebug - { key1: 'db1', key2: 'db2', key3: 'db3' }
+[2016-12-27 17:58:38.904] [DEBUG] logDebug - Exec SQL:select id , personname from personx where id = $1 or id = $2 
+[2016-12-27 17:58:38.904] [DEBUG] logDebug - SQL Pars:1,3
+[2016-12-27 17:58:38.943] [DEBUG] logDebug - { status: 1,
+  msg: '点击调用数据库，调用成功',
+  data: anonymous { id: '1', personname: 'A\'\'BC' } }
+[2016-12-27 17:58:40.471] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 17:58:40.477] [DEBUG] logDebug - Exec SQL: insert into personx set ( personname ,mobile ) values ( $1 , $2) 
+[2016-12-27 17:58:40.477] [DEBUG] logDebug - SQL Pars:windyStreet,
+[2016-12-27 17:58:40.479] [DEBUG] logDebug - { status: 0, msg: '插入数据到数据库，调用失败' }
+[2016-12-27 17:58:55.618] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 17:58:55.630] [DEBUG] logDebug - Exec SQL: insert into personx set ( personname ,mobile ) values ( $1 , $2 ) 
+[2016-12-27 17:58:55.630] [DEBUG] logDebug - SQL Pars:windyStreet,13129959233
+[2016-12-27 17:58:55.634] [DEBUG] logDebug - { status: 0, msg: '插入数据到数据库，调用失败' }
+[2016-12-27 18:01:17.561] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 18:01:17.576] [DEBUG] logDebug - Exec SQL: insert into personx  ( personname ,mobile ) values ( $1 , $2 ) 
+[2016-12-27 18:01:17.576] [DEBUG] logDebug - SQL Pars:windyStreet,13129959233
+[2016-12-27 18:01:17.582] [DEBUG] logDebug - { status: 0, msg: '插入数据到数据库，调用失败' }
+[2016-12-27 18:02:02.704] [DEBUG] logDebug - { name: 'windyStreet', mobile: '13129959233' }
+[2016-12-27 18:02:02.752] [DEBUG] logDebug - Exec SQL: insert into personx  ( id ,  personname ,mobile ) values ('123344', $1 , $2 ) 
+[2016-12-27 18:02:02.753] [DEBUG] logDebug - SQL Pars:windyStreet,13129959233
+[2016-12-27 18:02:02.773] [DEBUG] logDebug - { status: 1, msg: '插入数据到数据库，调用成功', data: null }
