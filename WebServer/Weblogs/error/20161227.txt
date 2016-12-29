@@ -5,3 +5,17 @@ error: 关系 "person" 不存在
 [2016-12-27 15:20:49.545] [ERROR] logError - DB select error
 error: 关系 "person" 不存在
 [2016-12-27 15:46:07.066] [ERROR] logError - /LUPDP/test  404
+[2016-12-27 17:55:40.536] [ERROR] logError - DB select error
+error: syntax error at or near "personx"
+[2016-12-27 17:56:27.902] [ERROR] logError - DB select error
+error: syntax error at or near "set"
+[2016-12-27 17:57:24.253] [ERROR] logError - DB select error
+error: syntax error at or near "set"
+[2016-12-27 17:57:41.934] [ERROR] logError - DB select error
+error: syntax error at or near "set"
+[2016-12-27 17:58:40.478] [ERROR] logError - DB select error
+error: syntax error at or near "set"
+[2016-12-27 17:58:55.633] [ERROR] logError - DB select error
+error: syntax error at or near "set"
+[2016-12-27 18:01:17.581] [ERROR] logError - DB select error
+error: null value in column "id" violates not-null constraint

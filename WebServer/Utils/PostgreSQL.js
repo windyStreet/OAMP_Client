@@ -140,8 +140,10 @@ function pg_insert(bean) {
             pr.msg = err.message;
             p.reject(pr);
         }
-        var sql = getInsertSQL(bean);
-        var pars = getQueryPars(bean, sql);
+        var sqlInfo = getInsertSQLInfo(bean);
+        var sql = sqlInfo.sql;
+        var pars = sqlInfo.pars;
+        var insertData = sqlInfo.data;
 
         __System.logDebug("Exec SQL:" + sql);
         __System.logDebug("SQL Pars:" + pars);
@@ -157,7 +159,7 @@ function pg_insert(bean) {
             if (result){
                 pr.status = _ResultCode.success;
                 pr.msg = "success";
-                pr.data = result.rows;
+                pr.data = insertData;
                 p.resolve(pr);
             }
         });
@@ -256,7 +258,7 @@ function pg_delete(bean) {
 
 function pg_init(bean) {
     // 数据库配置
-    var dataSource = bean.getDataSuource();
+    var dataSource = bean.getDataSource();
     var pgInitConf = {
         user: dataSource['user'],
         database: dataSource['database'],
@@ -284,23 +286,28 @@ function getQueryPars(bean, sql) {
         return null;
 }
 
-function getInsertSQL(bean){
-    var sqlFileds = bean.getSQLFiled();
+function getInsertSQLInfo(bean){
+    var sqlFields = bean.getSQLField();
     var filedKeys = [];
     var filedValues = [];
+    var filePlaceholders = [];
+    var insertData = {};
+    var i = 0;
 
-    // filedKey:filedKey,
-    //     filedValue:filedValue,
-    //     relation:relation?relation:null,
-    //     group:group?group:null
-    for (var i = 0 ; i<sqlFileds.length ; i++){
-        filedKeys.push(sqlFileds[i].filedKey)
-        filedValues.push(sqlFileds[i].filedValue)
+    for (var key  in sqlFields){
+        insertData[sqlFields[key].filedKey] = sqlFields[key].filedValue;
+        filedKeys.push(sqlFields[key].filedKey);
+        filedValues.push(sqlFields[key].filedValue);
+        filePlaceholders.push("$"+(++i));
     }
     var filedKeysStr = filedKeys.join(" , ");
-    var filedValuesStr = filedValues.join(" , ");
-    var tableName = bean.getTableName()
-    /var SQLStr = " insert into  "+ tableName +"  ( "+ filedKeysStr + " ) values ( $1 , $2 , $3 ) ";
-
-    //sql = insert into
+    var filePlaceholdersStr = filePlaceholders.join(" , ");
+    var tableName = bean.getTableName();
+    var SQLStr = " insert into  "+ tableName +"  ( "+ filedKeysStr + " ) values ( "+filePlaceholdersStr+" ) ";
+    var returnInfo = {
+        sql:SQLStr,
+        pars:filedValues,
+        data:insertData
+    };
+    return returnInfo;
 }

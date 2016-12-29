@@ -36,6 +36,10 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
              "insertResult":"点击添加一条数据到数据库",
              "insertDB":function(){
                  insertDB();
+             },
+             "updateResult":"点击更新一条数据",
+             "update":function(){
+                 updateDB();
              }
         })
         avalon.scan(document.body);
@@ -91,7 +95,25 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
         }
         service.service(reqBean).then(function (result) {
             if (result.status == 1){
-                _vm.insertResult = "add info";
+                _vm.insertResult = result.data.id;
+            }else{
+                _vm.insertResult = "调用失败";
+            }
+        })
+    }
+    function updateDB(){
+        var data = {
+            id:"windyStreet",
+            mobile:"13129959233"
+        }
+        var reqBean = {
+            serviceName:"updateDB",
+            serviceVersion:"1.0.0",
+            serviceData:data,
+        }
+        service.service(reqBean).then(function (result) {
+            if (result.status == 1){
+                _vm.insertResult = "update info";
             }else{
                 _vm.insertResult = "调用失败";
             }
