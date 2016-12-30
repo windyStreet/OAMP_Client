@@ -288,25 +288,25 @@ function getQueryPars(bean, sql) {
 
 function getInsertSQLInfo(bean){
     var sqlFields = bean.getSQLField();
-    var filedKeys = [];
-    var filedValues = [];
-    var filePlaceholders = [];
+    var fieldKeys = [];
+    var fieldValues = [];
+    var fieldPlaceholders = [];
     var insertData = {};
-    var i = 0;
 
-    for (var key  in sqlFields){
-        insertData[sqlFields[key].filedKey] = sqlFields[key].filedValue;
-        filedKeys.push(sqlFields[key].filedKey);
-        filedValues.push(sqlFields[key].filedValue);
-        filePlaceholders.push("$"+(++i));
+    for (var i = 0 ; i<sqlFields.length() ; i++){
+        insertData[sqlFields[i].fieldKey] = sqlFields[i].fieldValue;
+        fieldKeys.push(sqlFields[i].fieldKey);
+        fieldValues.push(sqlFields[i].fieldValue);
+        fieldPlaceholders.push("$"+(i));
     }
-    var filedKeysStr = filedKeys.join(" , ");
-    var filePlaceholdersStr = filePlaceholders.join(" , ");
+
+    var fieldKeysStr = fieldKeys.join(" , ");
+    var fieldPlaceholdersStr = fieldPlaceholders.join(" , ");
     var tableName = bean.getTableName();
-    var SQLStr = " insert into  "+ tableName +"  ( "+ filedKeysStr + " ) values ( "+filePlaceholdersStr+" ) ";
+    var SQLStr = " insert into  "+ tableName +"  ( "+ fieldKeysStr + " ) values ( " + fieldPlaceholdersStr + " ) ";
     var returnInfo = {
         sql:SQLStr,
-        pars:filedValues,
+        pars:fieldValues,
         data:insertData
     };
     return returnInfo;

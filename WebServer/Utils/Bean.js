@@ -1,8 +1,7 @@
 /**
- * Created by Administrator on 2016/12/26.
+ * Created by windyStreet on 2016/12/26.
  */
 var Q = require('q');
-var uuid = require('node-uuid');
 
 global.Bean = function() {
     var self = {};
@@ -10,68 +9,71 @@ global.Bean = function() {
     self.setTableName = function(tableName){
         self.tableName = tableName;
         return self;
-    },
+    };
     self.getTableName = function () {
         return self.tableName;
-    },
-    self.SQLField = {},
-    self.setSQLField = function(filedKey,filedValue,relation,group){
-        var newSQLField = this.SQLField;
-        var filed = {};
-        filed["filedKey"] = filedKey;
-        filed["filedValue"] = filedValue;
-        filed["relation"] = relation?relation:null;
-        filed["group"] = group?group:null;
-        newSQLField[uuid.v1()] = filed;
-        self.SQLField = newSQLField;
+    };
+    self.SQLField = [];
+    self.setSQLField = function(fieldKey,fieldValue,relation,group){
+        var field={
+            fieldKey:fieldKey,
+            fieldValue:fieldValue,
+            relation:relation?relation:null,
+            group:group?group:null
+        };
+        self.SQLField.push(field);
         return self;
-    },
+    };
     self.getSQLField = function () {
         return self.SQLField;
-    },
-    self.SQL = "",
+    };
+    self.SQL = "";
     self.setSQL = function(SQL){
         this.SQL = SQL;
         return self;
-    },
+    };
     self.getSQL = function(){
         return self.SQL;
-    },
-    self.placeholderVar = {},
+    };
+    self.placeholderVar = {};
     self.setPlaceholderVar = function(key,value){
         var placeholderVar_new = this.placeholderVar;
         placeholderVar_new[key] = value;
         self.placeholderVar = placeholderVar_new;
         return self;
-    },
+    };
     self.getPlaceholderVar = function(key){
-        return self.placeholderVar[key]
-    },
+        return self.placeholderVar[key];
+    };
     self.set = function(key,value){
-        self[key]=value
+        self[key]=value;
         return self;
-    },
+    };
     self.getValue = function(key){
-        return self[key]
-    },
+        return self[key];
+    };
     self.getKeys = function(){
-        return self.getAttributeNode();
-    },
-    self.dataSuource = __System.dataSource,
-    self.setDataSource = function(dataSuource){
-        self.dataSuource = dataSuource;
+        var keys = [];
+        for (var key in self ){
+            keys.push(key);
+        }
+        return keys;
+    };
+    self.dataSource = __System.dataSource;
+    self.setDataSource = function(dataSource){
+        self.dataSource = dataSource;
         return self;
-    },
+    };
     self.getDataSource = function(){
-        return self.dataSuource;
-    },
+        return self.dataSource;
+    };
     self.selectOne = function(){
         var p = Q.defer();
         DB_selectOne(this).then(function(result){
             p.resolve(result)
         });
         return p.promise;
-    },
+    };
     self.selectAll = function(){
         var p = Q.defer();
         DB_selectAll(self).then(function(result){
@@ -80,37 +82,122 @@ global.Bean = function() {
             p.reject(err);
         });
         return p.promise;
-    },
+    };
     self.update = function(){
         var p = Q.defer();
         DB_update(self).then(function(result){
             p.resolve(result)
         });
         return p.promise;
-    },
+    };
     self.insert = function(){
         var p = Q.defer();
         DB_insert(self).then(function(result){
             p.resolve(result)
         });
         return p.promise;
-    },
+    };
     self.delete = function(){
         var p = Q.defer();
         DB_delete(self).then(function(result){
             p.resolve(result)
         });
         return p.promise;
-    },
+    };
     self.execSQL = function(){
         var p = Q.defer();
         DB_execSQL(self).then(function(result){
             p.resolve(result)
         });
         return p.promise;
-    }
+    };
     return self;
 };
+
+function DB_execSQL (bean) {
+    var p = Q.defer();
+    var pg = new PostgresSQL();
+    pg.execSQL(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB execSQL success";
+        }
+        p.resolve(result);
+    });
+    return p.promise;
+}
+
+function DB_selectOne(bean){
+    var p = Q.defer();
+    var pg = new PostgresSQL();
+    pg.select(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB selectOne success";
+            if(result.data.length > 0)
+                result.data = result.data[0];
+            else
+                result.data = null
+        }
+        p.resolve(result);
+    });
+    return p.promise;
+}
+
+function DB_selectAll(bean){
+    var p = Q.defer();
+    var pg = new PostgresSQL();
+    pg.select(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB selectAll success";
+            if(result.data.length < 0)
+                result.data = null;
+        }
+        p.resolve(result);
+    });
+    return p.promise;
+}
+function DB_update(bean){
+    var p = Q.defer();
+    var pg = new PostgresSQL();
+    pg.update(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB update success";
+            if(! result.data)
+                result.data = null;
+        }
+        p.resolve(result);
+    });
+    return p.promise;
+}
+
+function DB_insert(bean){
+    var p = Q.defer();
+    var pg = new PostgresSQL();
+    pg.insert(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB insert success";
+        }
+        else
+            result.data = null;
+
+        p.resolve(result);
+    });
+    return p.promise;
+}
+
+function DB_delete(bean){
+    var p = Q.defer();
+    var pg = new PostgresSQL();
+    pg.delete(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB delete success";
+            if(! result.data)
+                result.data = null;
+        }
+        p.resolve(result);
+    });
+    return p.promise;
+}
+
 
 
 
@@ -234,92 +321,3 @@ global.Bean = function() {
 //     }
 // }
 //
-function DB_execSQL (bean) {
-    var p = Q.defer()
-    var pg = new PostgresSQL();
-    pg.execSQL(bean).then(function(result){
-        if (result.status == _ResultCode.success){
-            result.msg = "DB execSQL success";
-            result.data = result.data;
-        }
-        p.resolve(result);
-    });
-    return p.promise;
-}
-
-function DB_selectOne(bean){
-    var p = Q.defer()
-    var pg = new PostgresSQL();
-    pg.select(bean).then(function(result){
-        if (result.status == _ResultCode.success){
-            result.msg = "DB selectOne success";
-            if(result.data.length > 0)
-                result.data = result.data[0];
-            else
-                result.data = null
-        }
-        p.resolve(result);
-    });
-    return p.promise;
-}
-
-function DB_selectAll(bean){
-    var p = Q.defer()
-    var pg = new PostgresSQL();
-    pg.select(bean).then(function(result){
-        if (result.status == _ResultCode.success){
-            result.msg = "DB selectAll success";
-            if(result.data.length > 0)
-                result.data = result.data;
-            else
-                result.data = null
-        }
-        p.resolve(result);
-    });
-    return p.promise;
-}
-function DB_update(bean){
-    var p = Q.defer()
-    var pg = new PostgresSQL();
-    pg.update(bean).then(function(result){
-        if (result.status == _ResultCode.success){
-            result.msg = "DB update success";
-            if(result.data.length > 0)
-                result.data = result.data;
-            else
-                result.data = null
-        }
-        p.resolve(result);
-    });
-    return p.promise;
-}
-function DB_insert(bean){
-    var p = Q.defer()
-    var pg = new PostgresSQL();
-    pg.insert(bean).then(function(result){
-        if (result.status == _ResultCode.success){
-            result.msg = "DB insert success";
-            result.data = result.data;
-        }
-        else
-            result.data = null
-
-        p.resolve(result);
-    });
-    return p.promise;
-}
-function DB_delete(bean){
-    var p = Q.defer()
-    var pg = new PostgresSQL();
-    pg.delete(bean).then(function(result){
-        if (result.status == _ResultCode.success){
-            result.msg = "DB delete success";
-            if(result.data.length > 0)
-                result.data = result.data;
-            else
-                result.data = null
-        }
-        p.resolve(result);
-    });
-    return p.promise;
-}

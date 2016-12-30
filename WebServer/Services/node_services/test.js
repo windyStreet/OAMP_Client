@@ -18,34 +18,26 @@ function test(parms) {
 //查询数据库
 function searchDB(parms){
     var p = Q.defer();
-
-    var bean = Bean();
-    bean.setTableName("258963");
-    __System.logDebug(bean.getTableName());
-    __System.logDebug("-------------------------");
-    __System.logDebug(bean.getTableName());
-    __System.logDebug("-------------------------");
-
-    // __System.logDebug(parms);
-    //     var bean = Bean();
-    //     __System.logDebug("-------------------------");
-    //     __System.logDebug(bean.getSQL());
-    //     __System.logDebug("-------------------------");
-    //     var SQLStr = "select id , personname from personx where id = $1 or id = $2 ";
-    //     bean.setSQL(SQLStr);
-    //     __System.logDebug(bean.getSQL());
-    //     bean.setPlaceholderVar("$1",1);
-    //     bean.setPlaceholderVar("$2",3);
-    //     bean.selectOne(bean).then(function(result){
-    //         if (result.status == _ResultCode.success){
-    //             result.msg = "点击调用数据库，调用成功";
-    //         }else{
-    //             result.status = _ResultCode.fail;
-    //             result.msg = "点击调用数据库，调用失败";
-    //         }
-    //         __System.logDebug(result);
-    //         p.resolve(JSON.stringify(result));
-    //     });
+    __System.logDebug(parms);
+        var bean = Bean();
+        __System.logDebug("-------------------------");
+        __System.logDebug(bean.getSQL());
+        __System.logDebug("-------------------------");
+        var SQLStr = "select id , personname from personx where id = $1 or id = $2 ";
+        bean.setSQL(SQLStr);
+        __System.logDebug(bean.getSQL());
+        bean.setPlaceholderVar("$1",1);
+        bean.setPlaceholderVar("$2",3);
+        bean.selectOne(bean).then(function(result){
+            if (result.status == _ResultCode.success){
+                result.msg = "点击调用数据库，调用成功";
+            }else{
+                result.status = _ResultCode.fail;
+                result.msg = "点击调用数据库，调用失败";
+            }
+            __System.logDebug(result);
+            p.resolve(JSON.stringify(result));
+        });
     return p.promise;
 }
 
