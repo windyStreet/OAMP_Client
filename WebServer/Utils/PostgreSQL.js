@@ -183,6 +183,7 @@ function pg_update(bean) {
             pr.msg = err.message;
             p.reject(pr);
         }
+
         var sqlInfo = getUpdateSQLInfo(bean);
         var sql = sqlInfo.sql;
         var pars = sqlInfo.pars;
@@ -324,18 +325,21 @@ function getUpdateSQLInfo(bean) {
     var updateFields = [];
 
     var primaryKeyValue = null;
+    var primaryKeyPlaceHolder = null;
     for (var i = 0 ; i<sqlFields.length ; i++){
         if ( sqlFields[i].fieldKey == "id"){
             primaryKeyValue = sqlFields[i].fieldValue;
+            primaryKeyPlaceHolder = "$"+(i+1);
             continue;
         }
         updateData[sqlFields[i].fieldKey] = sqlFields[i].fieldValue;
         updateFields.push(sqlFields[i].fieldKey + " = " + "$"+(i+1) )
         fieldValues.push(sqlFields[i].fieldValue);
     }
+    fieldValues.push(primaryKeyValue)
     var updateFieldsStr = updateFields.join(" , ");
     var tableName = bean.getTableName();
-    var SQLStr = " update "+ tableName+" set " + updateFieldsStr +" where id = '"+primaryKeyValue+"'";
+    var SQLStr = " update "+ tableName+" set " + updateFieldsStr +" where id = "+primaryKeyPlaceHolder;
     var returnInfo = {
         sql:SQLStr,
         pars:fieldValues,
