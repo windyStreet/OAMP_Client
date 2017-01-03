@@ -81,7 +81,6 @@ function updateDB(parm){
             p.resolve(result);
     });
     return p.promise;
-
 }
 exports.test = test;
 exports.searchDB = searchDB;
