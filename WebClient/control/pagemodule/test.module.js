@@ -44,7 +44,12 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
              "deleteResult":"删除一条数据",
              "deleteDB":function(){
                  deleteDB();
+             },
+             "userSessionInfo":"点击获取当前用户信息",
+             "getUserSessionInfo":function () {
+                 getUserSessionInfo();
              }
+
         });
         avalon.scan(document.body);
     });
@@ -146,5 +151,22 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
                 _vm.deleteResult = "删除调用失败";
             }
         })
+    }
+
+    function getUserSessionInfo () {
+        var data = null;
+        var reqBean = {
+            serviceName:"getUserSessionInfo",
+            serviceVersion:"1.0.0",
+            serviceData:data,
+        }
+        service.service(reqBean).then(function (result) {
+            if (result.status == 1){
+                _vm.userInfo = "userSession info ";
+            }else{
+                _vm.userInfo = "删除获取 userSession 信息失败";
+            }
+        })
+
     }
 });
