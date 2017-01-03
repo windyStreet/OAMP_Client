@@ -200,10 +200,6 @@ function DB_delete(bean){
     return p.promise;
 }
 
-
-
-
-
 // global.Bean = function () {};
 // // Bean.constructor =  function defer  () {
 // //     return this;
