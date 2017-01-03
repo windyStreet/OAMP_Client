@@ -92,7 +92,7 @@ function deleteDB(parm){
     return p.promise;
 }
 
-
+//问题待解决，解决方案，在参数中添加session信息 或者 其他方式
 function getUserSessionInfo(parm)
 {
     var p = Q.defer();
