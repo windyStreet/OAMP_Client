@@ -7,9 +7,9 @@ __System.pgMaxWaitTime=3000;
 __System.dataSource={
     user:'postgres',
     database:'NodeJS',
-    password:'longrise',
-    host:'192.168.7.212',
-    port:54320
+    password:'123456',
+    host:'127.0.0.1',
+    port:5432
 };
 
 global._ResultCode={

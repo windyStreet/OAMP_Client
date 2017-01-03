@@ -183,8 +183,10 @@ function pg_update(bean) {
             pr.msg = err.message;
             p.reject(pr);
         }
-        var sql = bean.getSQL();
-        var pars = getQueryPars(bean, sql);
+        var sqlInfo = getUpdateSQLInfo(bean);
+        var sql = sqlInfo.sql;
+        var pars = sqlInfo.pars;
+        var insertData = sqlInfo.data;
 
         __System.logDebug("Exec SQL:" + sql);
         __System.logDebug("SQL Pars:" + pars);
@@ -200,7 +202,7 @@ function pg_update(bean) {
             if (result){
                 pr.status = _ResultCode.success;
                 pr.msg = "success";
-                pr.data = result.rows;
+                pr.data = insertData;
                 p.resolve(pr);
             }
         });
@@ -285,7 +287,7 @@ function getQueryPars(bean, sql) {
     else
         return null;
 }
-
+//生成inset相关信息
 function getInsertSQLInfo(bean){
     var sqlFields = bean.getSQLField();
     var fieldKeys = [];
@@ -293,11 +295,11 @@ function getInsertSQLInfo(bean){
     var fieldPlaceholders = [];
     var insertData = {};
 
-    for (var i = 0 ; i<sqlFields.length() ; i++){
+    for (var i = 0 ; i<sqlFields.length ; i++){
         insertData[sqlFields[i].fieldKey] = sqlFields[i].fieldValue;
         fieldKeys.push(sqlFields[i].fieldKey);
         fieldValues.push(sqlFields[i].fieldValue);
-        fieldPlaceholders.push("$"+(i));
+        fieldPlaceholders.push("$"+(i+1));
     }
 
     var fieldKeysStr = fieldKeys.join(" , ");
@@ -308,6 +310,36 @@ function getInsertSQLInfo(bean){
         sql:SQLStr,
         pars:fieldValues,
         data:insertData
+    };
+    return returnInfo;
+}
+
+//生成update相关信息
+function getUpdateSQLInfo(bean) {
+
+    var sqlFields = bean.getSQLField();
+
+    var fieldValues = [];
+    var updateData = {};
+    var updateFields = [];
+
+    var primaryKeyValue = null;
+    for (var i = 0 ; i<sqlFields.length ; i++){
+        if ( sqlFields[i].fieldKey == "id"){
+            primaryKeyValue = sqlFields[i].fieldValue;
+            continue;
+        }
+        updateData[sqlFields[i].fieldKey] = sqlFields[i].fieldValue;
+        updateFields.push(sqlFields[i].fieldKey + " = " + "$"+(i+1) )
+        fieldValues.push(sqlFields[i].fieldValue);
+    }
+    var updateFieldsStr = updateFields.join(" , ");
+    var tableName = bean.getTableName();
+    var SQLStr = " update "+ tableName+" set " + updateFieldsStr +" where id = '"+primaryKeyValue+"'";
+    var returnInfo = {
+        sql:SQLStr,
+        pars:fieldValues,
+        data:primaryKeyValue
     };
     return returnInfo;
 }

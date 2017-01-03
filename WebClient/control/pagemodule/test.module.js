@@ -20,7 +20,7 @@ requirejs.config({
 
 
 define(['../common/service', 'avalon', 'superSlide'], function (service) {
-
+    var updateID = null;
     var _vm = null;
     avalon.ready(function () {
          _vm = avalon.define({
@@ -38,7 +38,7 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
                  insertDB();
              },
              "updateResult":"点击更新一条数据",
-             "update":function(){
+             "updateDB":function(){
                  updateDB();
              }
         })
@@ -77,6 +77,7 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
         service.service(reqBean).then(function (result) {
             if (result.status == 1){
                 _vm.searchResult = "this is a person , id is:"+ result.data.id+ " name is :" + result.data.personname;
+
             }else{
                 _vm.searchResult = "调用失败";
             }
@@ -95,7 +96,9 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
         }
         service.service(reqBean).then(function (result) {
             if (result.status == 1){
-                _vm.insertResult = result.data.id;
+                _vm.insertResult = "新增个信息内容：id"+result.data.id+" >> 姓名："+result.data.personname+">> 电话号码:"+result.data.mobile;
+                _vm.updateResult = "点击更新"+result.data.personname+"个人信息";
+                updateID = result.data.id;
             }else{
                 _vm.insertResult = "调用失败";
             }
@@ -103,8 +106,8 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
     }
     function updateDB(){
         var data = {
-            id:"windyStreet",
-            mobile:"13129959233"
+            id:updateID,
+            mobile:"123456"
         }
         var reqBean = {
             serviceName:"updateDB",
@@ -113,9 +116,9 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
         }
         service.service(reqBean).then(function (result) {
             if (result.status == 1){
-                _vm.insertResult = "update info";
+                _vm.updateResult = "update info";
             }else{
-                _vm.insertResult = "调用失败";
+                _vm.updateResult = "调用失败";
             }
         })
     }

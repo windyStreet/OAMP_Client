@@ -16,9 +16,10 @@ require('./WebServer/System/_systemConf');
 
 process.env.PORT = '3000';
 var options = {
-    "host": "192.168.7.216",
+    //"host": "192.168.7.216",
+    "host": "59.173.241.186",
     "port": "6379",
-    "db": 1,
+    "db": 15,
     "pass":"longrise",
     "ttl": 60*10
 };

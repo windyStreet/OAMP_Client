@@ -68,6 +68,22 @@ function insertDB(parms){
     });
     return p.promise;
 }
+
+function updateDB(parm){
+    var p = Q.defer();
+
+    var updateBean = Bean();
+    updateBean.setTableName("personx");
+    updateBean.setSQLField("id",parm.id);
+    updateBean.setSQLField("mobile",parm.mobile);
+    updateBean.update(parm).then(function(result){
+        //if (result.status == _ResultCode.success)
+            p.resolve(result);
+    });
+    return p.promise;
+
+}
 exports.test = test;
 exports.searchDB = searchDB;
 exports.insertDB = insertDB;
+exports.updateDB = updateDB;
