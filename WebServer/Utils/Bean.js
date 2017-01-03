@@ -155,19 +155,6 @@ function DB_selectAll(bean){
     });
     return p.promise;
 }
-function DB_update(bean){
-    var p = Q.defer();
-    var pg = new PostgresSQL();
-    pg.update(bean).then(function(result){
-        if (result.status == _ResultCode.success){
-            result.msg = "DB update success";
-            if(! result.data)
-                result.data = null;
-        }
-        p.resolve(result);
-    });
-    return p.promise;
-}
 
 function DB_insert(bean){
     var p = Q.defer();
@@ -183,6 +170,21 @@ function DB_insert(bean){
     });
     return p.promise;
 }
+
+function DB_update(bean){
+    var p = Q.defer();
+    var pg = new PostgresSQL();
+    pg.update(bean).then(function(result){
+        if (result.status == _ResultCode.success){
+            result.msg = "DB update success";
+            if(! result.data)
+                result.data = null;
+        }
+        p.resolve(result);
+    });
+    return p.promise;
+}
+
 
 function DB_delete(bean){
     var p = Q.defer();

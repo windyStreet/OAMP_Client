@@ -48,9 +48,6 @@ function insertDB(parms){
     var name = parms.name;
     var mobile = parms.mobile;
     var bean = new Bean();
-    __System.logDebug("--------------------");
-    __System.logDebug(bean.getSQLField())
-    __System.logDebug("--------------------");
     bean.setTableName("personx");
     bean.setSQLField("id",uuid.v1().replace(/-/g,""));
     bean.setSQLField("personname",name);
@@ -76,14 +73,26 @@ function updateDB(parm){
     updateBean.setTableName("personx");
     updateBean.setSQLField("id",parm.id);
     updateBean.setSQLField("mobile",parm.mobile);
+    updateBean.setSQLField("personname",parm.personname);
     updateBean.update(parm).then(function(result){
         //if (result.status == _ResultCode.success)
             p.resolve(result);
     });
     return p.promise;
+}
 
+function deleteDB(parm){
+    var p = Q.defer();
+    var deleteBean = Bean();
+    deleteBean.setTableName("personx");
+    deleteBean.setSQLField("id",parm.id);
+    deleteBean.delete(parm).then(function(result){
+        p.resolve(result);
+    });
+    return p.promise;
 }
 exports.test = test;
 exports.searchDB = searchDB;
 exports.insertDB = insertDB;
 exports.updateDB = updateDB;
+exports.deleteDB = deleteDB;

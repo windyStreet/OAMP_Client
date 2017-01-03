@@ -20,7 +20,7 @@ requirejs.config({
 
 
 define(['../common/service', 'avalon', 'superSlide'], function (service) {
-    var updateID = null;
+    var primaryKey = null;
     var _vm = null;
     avalon.ready(function () {
          _vm = avalon.define({
@@ -40,8 +40,12 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
              "updateResult":"点击更新一条数据",
              "updateDB":function(){
                  updateDB();
+             },
+             "deleteResult":"删除一条数据",
+             "deleteDB":function(){
+                 deleteDB();
              }
-        })
+        });
         avalon.scan(document.body);
     });
 
@@ -87,7 +91,7 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
     function insertDB(){
         var data = {
             name:"windyStreet",
-            mobile:"13129959233"
+            mobile:"13698521114"
         }
         var reqBean = {
             serviceName:"insertDB",
@@ -96,18 +100,21 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
         }
         service.service(reqBean).then(function (result) {
             if (result.status == 1){
-                _vm.insertResult = "新增个信息内容：id"+result.data.id+" >> 姓名："+result.data.personname+">> 电话号码:"+result.data.mobile;
+                _vm.insertResult = "新增个信息内容：id:"+result.data.id+" >> 姓名："+result.data.personname+">> 电话号码:"+result.data.mobile;
                 _vm.updateResult = "点击更新"+result.data.personname+"个人信息";
-                updateID = result.data.id;
+                _vm.deleteResult = "点击删除"+result.data.personname+"个人信息";
+                primaryKey = result.data.id;
             }else{
-                _vm.insertResult = "调用失败";
+                _vm.insertResult = "新增调用失败";
             }
         })
     }
     function updateDB(){
         var data = {
-            id:updateID,
-            mobile:"123456"
+            id:primaryKey,
+            mobile:"123456",
+            personname:"update-windyStreet"
+
         }
         var reqBean = {
             serviceName:"updateDB",
@@ -116,9 +123,27 @@ define(['../common/service', 'avalon', 'superSlide'], function (service) {
         }
         service.service(reqBean).then(function (result) {
             if (result.status == 1){
-                _vm.updateResult = "update info";
+                _vm.updateResult = "修改个信息内容：id:"+result.data.id+" >> 姓名："+result.data.personname+">> 电话号码:"+result.data.mobile;
             }else{
-                _vm.updateResult = "调用失败";
+                _vm.updateResult = "修改调用失败";
+            }
+        })
+    }
+
+    function deleteDB() {
+        var data = {
+            id:primaryKey
+        }
+        var reqBean = {
+            serviceName:"deleteDB",
+            serviceVersion:"1.0.0",
+            serviceData:data,
+        }
+        service.service(reqBean).then(function (result) {
+            if (result.status == 1){
+                _vm.deleteResult = "删除个信息内容：id:"+result.data.id+" >> 姓名："+result.data.personname+">> 电话号码:"+result.data.mobile;
+            }else{
+                _vm.deleteResult = "删除调用失败";
             }
         })
     }
