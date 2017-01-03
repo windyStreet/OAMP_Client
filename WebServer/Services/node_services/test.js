@@ -3,7 +3,7 @@
  */
 var Q = require('q');
 var uuid = require('node-uuid');
-
+var express = require('express');
 //数据返回测试
 function test(parms) {
     var p = Q.defer();
@@ -91,8 +91,19 @@ function deleteDB(parm){
     });
     return p.promise;
 }
+
+
+function getUserSessionInfo(parm)
+{
+    var p = Q.defer();
+    var app = express();
+    p.resolve(app);
+    return p.promise;
+
+}
 exports.test = test;
 exports.searchDB = searchDB;
 exports.insertDB = insertDB;
 exports.updateDB = updateDB;
 exports.deleteDB = deleteDB;
+exports.getUserSessionInfo = getUserSessionInfo;
