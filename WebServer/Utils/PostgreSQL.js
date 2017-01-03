@@ -185,6 +185,12 @@ function pg_update(bean) {
         }
 
         var sqlInfo = getUpdateSQLInfo(bean);
+        if (!sqlInfo){
+            pr.status = _ResultCode.fail;
+            pr.msg = "update SQL error analysis";
+            pr.data = null;
+            p.resolve(pr);
+        }
         var sql = sqlInfo.sql;
         var pars = sqlInfo.pars;
         var insertData = sqlInfo.data;
@@ -227,8 +233,17 @@ function pg_delete(bean) {
             pr.msg = err.message;
             p.reject(pr);
         }
-        var sql = bean.getSQL();
-        var pars = getQueryPars(bean, sql);
+
+        var sqlInfo = getDeleteSQLInfo(bean);
+        if (!sqlInfo){
+            pr.status = _ResultCode.fail;
+            pr.msg = "delete SQL error analysis";
+            pr.data = null;
+            p.resolve(pr);
+        }
+        var sql = sqlInfo.sql;
+        var pars = sqlInfo.pars;
+        var insertData = sqlInfo.data;
 
         __System.logDebug("Exec SQL:" + sql);
         __System.logDebug("SQL Pars:" + pars);
@@ -244,7 +259,7 @@ function pg_delete(bean) {
             if (result){
                 pr.status = _ResultCode.success;
                 pr.msg = "success";
-                pr.data = result.rows;
+                pr.data = insertData;
                 p.resolve(pr);
             }
         });
@@ -294,10 +309,8 @@ function getInsertSQLInfo(bean){
     var fieldKeys = [];
     var fieldValues = [];
     var fieldPlaceholders = [];
-    var insertData = {};
 
     for (var i = 0 ; i<sqlFields.length ; i++){
-        insertData[sqlFields[i].fieldKey] = sqlFields[i].fieldValue;
         fieldKeys.push(sqlFields[i].fieldKey);
         fieldValues.push(sqlFields[i].fieldValue);
         fieldPlaceholders.push("$"+(i+1));
@@ -310,18 +323,17 @@ function getInsertSQLInfo(bean){
     var returnInfo = {
         sql:SQLStr,
         pars:fieldValues,
-        data:insertData
+        data:sqlFields
     };
     return returnInfo;
 }
 
-//生成update相关信息
+//生成update SQL 相关信息
 function getUpdateSQLInfo(bean) {
 
     var sqlFields = bean.getSQLField();
 
     var fieldValues = [];
-    var updateData = {};
     var updateFields = [];
 
     var primaryKeyValue = null;
@@ -332,18 +344,45 @@ function getUpdateSQLInfo(bean) {
             primaryKeyPlaceHolder = "$"+(i+1);
             continue;
         }
-        updateData[sqlFields[i].fieldKey] = sqlFields[i].fieldValue;
-        updateFields.push(sqlFields[i].fieldKey + " = " + "$"+(i+1) )
+        updateFields.push(sqlFields[i].fieldKey + " = " + "$"+(i+1) );
         fieldValues.push(sqlFields[i].fieldValue);
     }
-    fieldValues.push(primaryKeyValue)
+    fieldValues.push(primaryKeyValue);
     var updateFieldsStr = updateFields.join(" , ");
     var tableName = bean.getTableName();
     var SQLStr = " update "+ tableName+" set " + updateFieldsStr +" where id = "+primaryKeyPlaceHolder;
     var returnInfo = {
         sql:SQLStr,
         pars:fieldValues,
-        data:primaryKeyValue
+        data:sqlFields
+    };
+    return returnInfo;
+}
+
+//生成 delete SQL 相关信息
+function getUpdateSQLInfo(bean) {
+
+    var sqlFields = bean.getSQLField();
+    var fieldValues = [];
+
+    var primaryKeyValue = null;
+    var primaryKeyPlaceHolder = null;
+    for (var i = 0 ; i<sqlFields.length ; i++){
+        if ( sqlFields[i].fieldKey == "id"){
+            primaryKeyValue = sqlFields[i].fieldValue;
+            primaryKeyPlaceHolder = "$"+(i+1);
+            continue;
+        }
+        fieldValues.push(sqlFields[i].fieldValue);
+    }
+    fieldValues.push(primaryKeyValue);
+    var tableName = bean.getTableName();
+
+    var SQLStr = " delete from  "+ tableName+" where id = "+primaryKeyPlaceHolder;
+    var returnInfo = {
+        sql:SQLStr,
+        pars:fieldValues,
+        data:sqlFields
     };
     return returnInfo;
 }
