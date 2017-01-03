@@ -191,34 +191,37 @@ function pg_update(bean) {
             pr.data = null;
             p.resolve(pr);
         }
-        var sql = sqlInfo.sql;
-        var pars = sqlInfo.pars;
-        var updateData = sqlInfo.data;
+        else{
+            var sql = sqlInfo.sql;
+            var pars = sqlInfo.pars;
+            var updateData = sqlInfo.data;
 
-        __System.logDebug("Exec SQL:" + sql);
-        __System.logDebug("SQL Pars:" + pars);
+            __System.logDebug("Exec SQL:" + sql);
+            __System.logDebug("SQL Pars:" + pars);
 
-        client.query(sql, pars, function (err, result) {
-            done();// 释放连接（将其返回给连接池）
-            if (err) {
-                __System.logError('DB update error',err);
+            client.query(sql, pars, function (err, result) {
+                done();// 释放连接（将其返回给连接池）
+                if (err) {
+                    __System.logError('DB update error',err);
+                    pr.status = _ResultCode.exception;
+                    pr.msg = err.message;
+                    p.resolve(pr);
+                }
+                if (result){
+                    pr.status = _ResultCode.success;
+                    pr.msg = "success";
+                    pr.data = updateData;
+                    p.resolve(pr);
+                }
+            });
+            pool.on('error', function (err, client) {
+                __System.logError('idle client error',err);
                 pr.status = _ResultCode.exception;
                 pr.msg = err.message;
                 p.resolve(pr);
-            }
-            if (result){
-                pr.status = _ResultCode.success;
-                pr.msg = "success";
-                pr.data = updateData;
-                p.resolve(pr);
-            }
-        });
-        pool.on('error', function (err, client) {
-            __System.logError('idle client error',err);
-            pr.status = _ResultCode.exception;
-            pr.msg = err.message;
-            p.resolve(pr);
-        });
+            });
+        }
+
     });
     return p.promise;
 }
@@ -233,42 +236,42 @@ function pg_delete(bean) {
             pr.msg = err.message;
             p.reject(pr);
         }
-
         var sqlInfo = getDeleteSQLInfo(bean);
         if (!sqlInfo){
             pr.status = _ResultCode.fail;
             pr.msg = "delete SQL error analysis";
             pr.data = null;
             p.resolve(pr);
-        }
-        var sql = sqlInfo.sql;
-        var pars = sqlInfo.pars;
-        var deleteData = sqlInfo.data;
+        }else{
+            var sql = sqlInfo.sql;
+            var pars = sqlInfo.pars;
+            var deleteData = sqlInfo.data;
 
-        __System.logDebug("Exec SQL:" + sql);
-        __System.logDebug("SQL Pars:" + pars);
+            __System.logDebug("Exec SQL:" + sql);
+            __System.logDebug("SQL Pars:" + pars);
 
-        client.query(sql, pars, function (err, result) {
-            done();// 释放连接（将其返回给连接池）
-            if (err) {
-                __System.logError('DB delete error',err);
+            client.query(sql, pars, function (err, result) {
+                done();// 释放连接（将其返回给连接池）
+                if (err) {
+                    __System.logError('DB delete error',err);
+                    pr.status = _ResultCode.exception;
+                    pr.msg = err.message;
+                    p.resolve(pr);
+                }
+                if (result){
+                    pr.status = _ResultCode.success;
+                    pr.msg = "success";
+                    pr.data = deleteData;
+                    p.resolve(pr);
+                }
+            });
+            pool.on('error', function (err, client) {
+                __System.logError('idle client error',err);
                 pr.status = _ResultCode.exception;
                 pr.msg = err.message;
                 p.resolve(pr);
-            }
-            if (result){
-                pr.status = _ResultCode.success;
-                pr.msg = "success";
-                pr.data = deleteData;
-                p.resolve(pr);
-            }
-        });
-        pool.on('error', function (err, client) {
-            __System.logError('idle client error',err);
-            pr.status = _ResultCode.exception;
-            pr.msg = err.message;
-            p.resolve(pr);
-        });
+            });
+        }
     });
     return p.promise;
 }
@@ -343,26 +346,32 @@ function getUpdateSQLInfo(bean) {
 
     var primaryKeyValue = null;
     var primaryKeyPlaceHolder = null;
+    var isValid = false;
     for (var i = 0 ; i<sqlFields.length ; i++){
         updateData[sqlFields[i].fieldKey] = sqlFields[i].fieldValue;
         if ( sqlFields[i].fieldKey == "id"){
             primaryKeyValue = sqlFields[i].fieldValue;
             primaryKeyPlaceHolder = "$"+(i+1);
+            isValid = primaryKeyValue ? true:false;
             continue;
         }
         updateFields.push(sqlFields[i].fieldKey + " = " + "$"+(i+1) );
         fieldValues.push(sqlFields[i].fieldValue);
     }
-    fieldValues.push(primaryKeyValue);
-    var updateFieldsStr = updateFields.join(" , ");
-    var tableName = bean.getTableName();
-    var SQLStr = " update "+ tableName+" set " + updateFieldsStr +" where id = "+primaryKeyPlaceHolder;
-    var returnInfo = {
-        sql:SQLStr,
-        pars:fieldValues,
-        data:updateData
-    };
-    return returnInfo;
+    if (isValid){
+        fieldValues.push(primaryKeyValue);
+        var updateFieldsStr = updateFields.join(" , ");
+        var tableName = bean.getTableName();
+        var SQLStr = " update "+ tableName+" set " + updateFieldsStr +" where id = "+primaryKeyPlaceHolder;
+        var returnInfo = {
+            sql:SQLStr,
+            pars:fieldValues,
+            data:updateData
+        };
+        return returnInfo;
+    }
+    else
+        return null;
 }
 
 //生成 delete SQL 相关信息
@@ -375,23 +384,30 @@ function getDeleteSQLInfo(bean) {
 
     var primaryKeyValue = null;
     var primaryKeyPlaceHolder = null;
+    var isValid = false;
     for (var i = 0 ; i<sqlFields.length ; i++){
         deleteData[sqlFields[i].fieldKey] = sqlFields[i].fieldValue;
         if ( sqlFields[i].fieldKey == "id"){
             primaryKeyValue = sqlFields[i].fieldValue;
             primaryKeyPlaceHolder = "$"+(i+1);
+            isValid = primaryKeyValue ? true:false;
             continue;
         }
         fieldValues.push(sqlFields[i].fieldValue);
     }
-    fieldValues.push(primaryKeyValue);
-    var tableName = bean.getTableName();
+    if (isValid){
+        fieldValues.push(primaryKeyValue);
+        var tableName = bean.getTableName();
 
-    var SQLStr = " delete from  "+ tableName+" where id = "+primaryKeyPlaceHolder;
-    var returnInfo = {
-        sql:SQLStr,
-        pars:fieldValues,
-        data:deleteData
-    };
-    return returnInfo;
+        var SQLStr = " delete from  "+ tableName+" where id = "+primaryKeyPlaceHolder;
+        var returnInfo = {
+            sql:SQLStr,
+            pars:fieldValues,
+            data:deleteData
+        };
+        return returnInfo;
+    }
+    else
+        return null;
+
 }
