@@ -23,6 +23,7 @@ var options = {
     "pass":"longrise",
     "ttl": 60*10
 };
+
 app.use(cookieParser());
 app.use(session({
     store: new RedisStore(options),
