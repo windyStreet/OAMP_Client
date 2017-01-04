@@ -21,4 +21,10 @@ router.get('/test', function (req, res) {
     //require('../Services/view_services/test.js').init(res, req.params);
 });
 
+router.get('/projectUpdate', function (req, res) {
+    res.render('../Views/projectUpdate',null);
+    //require('../Services/view_services/projectUpdate.js').init(res, req.params);
+});
+
+
 module.exports = router;

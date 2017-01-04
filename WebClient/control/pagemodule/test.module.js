@@ -1,11 +1,6 @@
 /**
  * Created by Administrator on 2016/12/23.
  */
-/**
- * Created by huangkb on 2016-11-9 14:47:11
- */
-
-
 requirejs.config({
     paths: {
         jquery: '../../lib/jquery.1.8.3',
