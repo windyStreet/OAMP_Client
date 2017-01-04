@@ -19,7 +19,7 @@ define(['jquery'], function () {
             data: JSON.stringify(bean),
             dataType: "json",
             headers:{
-                servicesType:(reqBean.servicesType) ? reqBean.servicesType : "node",
+                servicesType:(reqBean.servicesType) ? reqBean.servicesType : "node"
             },
             success: function (result) {
                 def.resolve(result);
