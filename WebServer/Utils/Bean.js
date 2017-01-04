@@ -143,7 +143,7 @@ global.Bean = function() {
             }
             p.resolve(result);
         });
-        return p.promise;
+        p.promise;
     };
     return self;
 };
