@@ -20,7 +20,7 @@ a:focus, a:active, a:hover ,a.dropdown-toggle{
 	text-decoration:none;
 }
 a {
-    background-color:none;
+    background-color:blue;
 }
 body p{
   font-family: 'Roboto', sans-serif;
