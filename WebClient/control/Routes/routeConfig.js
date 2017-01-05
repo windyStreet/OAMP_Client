@@ -11,7 +11,7 @@ router.get('/info', function (req, res) {
     require('../Services/view_services/info.js').init(res, null);
 });
 
-router.get('/info/details/:newsid', function (req, res) {
+router.get('/info/details/:newsid/sss/sccc', function (req, res) {
     __System.logWarn(req.session.userid);
     require('../Services/view_services/info_details.js').init(res, req.params);
 });
@@ -32,6 +32,14 @@ router.get('/index', function (req, res) {
 
 router.get('/project', function (req, res) {
     res.render('../Views/project',null);
+    //require('../Services/view_services/projectUpdate.js').init(res, req.params);
+});
+router.get('/projectDetails/:PROJECTID', function (req, res) {
+    console.log(req.params)
+    //var xx = Json(req.params)
+    //res.render('../Views/projectDetails',xx);
+    res.render('../Views/projectDetails',null);
+    //require('../Services/view_services/info_details.js').init(res, req.params);
     //require('../Services/view_services/projectUpdate.js').init(res, req.params);
 });
 

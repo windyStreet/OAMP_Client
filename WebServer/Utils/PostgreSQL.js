@@ -95,7 +95,7 @@ function pg_select(bean) {
             __System.logError('DB connection error',err);
             pr.status = _ResultCode.exception;
             pr.msg = err.message;
-            p.reject(pr);
+            p.resolve(pr);
         }
         var sql = bean.getSQL();
         var pars = getQueryPars(bean, sql);
