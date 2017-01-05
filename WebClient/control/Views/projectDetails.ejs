@@ -2,48 +2,150 @@
 <body ms-controller="projectDetails">
 <div class="page-container">
     <%- include('sidebar.html') %>
- <!--/content-inner-->
- <div class="left-content">
-  <div class="mother-grid-inner">
-   <!--header start here-->
-      <%- include('header.ejs') %>
-   <!--heder end here-->
-   <!--inner block end here-->
-   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index">Home</a> <i class="fa fa-angle-right"></i></li>
-   </ol>
-   <div class="agile-grids">
-    <div class="agile-tables">
-     <div class="w3l-table-info">
-      <h2>{{@title}}</h2>
-      <table id="table">
-       <thead>
-       <tr>
-        <th>项目名称</th>
-        <th>运行状态</th>
-        <th>运行版本</th>
-       </tr>
-       </thead>
-       <tbody ms-for="projectInfo in @projectsInfo" >
-       <tr>
-        <td><a href="projectDetails">{{projectInfo.projectName}}</a></td>
-        <td>{{projectInfo.runState}}</td>
-        <td>{{projectInfo.runVersion}}</td>
-       </tr>
-       </tbody>
-      </table>
-     </div>
+    <!--/content-inner-->
+    <div class="left-content">
+        <div class="mother-grid-inner">
+            <!--header start here-->
+            <%- include('header.ejs') %>
+            <!--heder end here-->
+            <!--inner block end here-->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index">Home</a> <i class="fa fa-angle-right"></i></li>
+            </ol>
+            <!--#########################################################-->
+            <div class="four-grids">
+                <div class="col-md-3 four-grid">
+                    <div class="four-agileits">
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+                        </div>
+                        <div class="four-text">
+                            <h3>运行状态</h3>
+                            <h4>正常运行中</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 four-grid">
+                    <div class="four-agileinfo">
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
+                        </div>
+                        <div class="four-text">
+                            <h3>服务器数量</h3>
+                            <h4>3</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 four-grid">
+                    <div class="four-w3ls">
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
+                        </div>
+                        <div class="four-text">
+                            <h3>tomcat数量</h3>
+                            <h4>12</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 four-grid">
+                    <div class="four-wthree">
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-briefcase" aria-hidden="true"></i>
+                        </div>
+                        <div class="four-text">
+                            <h3>服务重启次数</h3>
+                            <h4>7</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+
+            <div class="four-grids">
+                <div class="col-md-3 four-grid">
+                    <div class="four-agileits">
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+                        </div>
+                        <div class="four-text">
+                            <h3>项目运行时间</h3>
+                            <h4>123天23小时</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 four-grid">
+                    <div class="four-agileinfo">
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
+                        </div>
+                        <div class="four-text">
+                            <h3>上次更新时间</h3>
+                            <h4>07-06 04:30:12</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 four-grid">
+                    <div class="four-w3ls">
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
+                        </div>
+                        <div class="four-text">
+                            <h3>上次更新耗时</h3>
+                            <h4>1分23秒</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 four-grid">
+                    <div class="four-wthree">
+                        <div class="icon">
+                            <i class="glyphicon glyphicon-briefcase" aria-hidden="true"></i>
+                        </div>
+                        <div class="four-text">
+                            <h3>当前版本</h3>
+                            <h4>V1.0.400.001</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+
+            <!--#########################################################-->
+            <div class="agile-grids">
+                <div class="agile-tables">
+                    <div class="w3l-table-info">
+                        <h2>{{@title}}</h2>
+                        <table id="table">
+                            <thead>
+                            <tr>
+                                <th>项目名称</th>
+                                <th>运行状态</th>
+                                <th>运行版本</th>
+                            </tr>
+                            </thead>
+                            <tbody ms-for="projectInfo in @projectsInfo">
+                            <tr>
+                                <td><a href="projectDetails">{{projectInfo.projectName}}</a></td>
+                                <td>{{projectInfo.runState}}</td>
+                                <td>{{projectInfo.runVersion}}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <!--inner block end here-->
+            <!--copy rights start here-->
+            <div class="inner-block">
+            </div>
+        </div>
     </div>
 
-   </div>
-   <!--inner block end here-->
-   <!--copy rights start here-->
-   <div class="inner-block">
-   </div>
-  </div>
- </div>
-
- <div class="clearfix"></div>
+    <div class="clearfix"></div>
 </div>
 <!--COPY rights end here-->
 <%- include('footer.html') %>

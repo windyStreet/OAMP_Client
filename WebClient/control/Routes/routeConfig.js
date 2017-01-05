@@ -25,6 +25,14 @@ router.get('/projectUpdate', function (req, res) {
     res.render('../Views/projectUpdate',null);
     //require('../Services/view_services/projectUpdate.js').init(res, req.params);
 });
+router.get('/projectFunc', function (req, res) {
+    res.render('../Views/projectFunc',null);
+    //require('../Services/view_services/projectUpdate.js').init(res, req.params);
+});
+router.get('/projectFuncDetails/:projectID', function (req, res) {
+    res.render('../Views/projectFuncDetails',null);
+    //require('../Services/view_services/projectUpdate.js').init(res, req.params);
+});
 router.get('/index', function (req, res) {
     res.render('../Views/index',null);
     //require('../Services/view_services/projectUpdate.js').init(res, req.params);
