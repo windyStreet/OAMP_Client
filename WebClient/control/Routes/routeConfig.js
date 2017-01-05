@@ -25,6 +25,21 @@ router.get('/projectUpdate', function (req, res) {
     res.render('../Views/projectUpdate',null);
     //require('../Services/view_services/projectUpdate.js').init(res, req.params);
 });
+router.get('/index', function (req, res) {
+    res.render('../Views/index',null);
+    //require('../Services/view_services/projectUpdate.js').init(res, req.params);
+});
+
+router.get('/project', function (req, res) {
+    res.render('../Views/project',null);
+    //require('../Services/view_services/projectUpdate.js').init(res, req.params);
+});
+
+
+router.get('/index', function (req, res) {
+    res.render('../Views/index',null);
+    //require('../Services/view_services/projectUpdate.js').init(res, req.params);
+});
 
 
 module.exports = router;
