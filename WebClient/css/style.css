@@ -877,6 +877,10 @@ ul.dropdown-menu.drp-mnu li {
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     background: #fff;
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*bottom: 0;*/
+    /*overflow: auto;*/
 }
 .copyrights p {
     font-size: 1em;

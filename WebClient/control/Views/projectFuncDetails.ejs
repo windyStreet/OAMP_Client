@@ -12,157 +12,156 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index">Home</a> <i class="fa fa-angle-right"></i></li>
             </ol>
-            <h2>{{@title}}</h2>
-            <ol class="breadcrumb">
-                <div class="w3l-table-info">
-                    <table id="table">
-                        <thead>
-                        <tbody>
-                        <tr>
-                            <td>
-                                更新
-                            </td>
-                            <td>
-                                请输入版本号
-                            </td>
-                            <td>
-                                更新进度
-                            </td>
-                            <td>
-                                控制台信息
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                回滚
-                            </td>
-                            <td>
-                                请选择版本
-                            </td>
-                            <td>
-                                更新进度
-                            </td>
-                            <td>
-                                控制台信息
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </ol>
-            <!--#########################################################-->
-            <div class="four-grids">
-                <div class="col-md-3 four-grid">
-                    <div class="four-agileits">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
-                        </div>
-                        <div class="four-text">
-                            <h3>运行状态</h3>
-                            <h4>正常运行中</h4>
-                        </div>
 
-                    </div>
-                </div>
-                <div class="col-md-3 four-grid">
-                    <div class="four-agileinfo">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="four-text">
-                            <h3>服务器数量</h3>
-                            <h4>3</h4>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-3 four-grid">
-                    <div class="four-w3ls">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
-                        </div>
-                        <div class="four-text">
-                            <h3>tomcat数量</h3>
-                            <h4>12</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 four-grid">
-                    <div class="four-wthree">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-briefcase" aria-hidden="true"></i>
-                        </div>
-                        <div class="four-text">
-                            <h3>服务重启次数</h3>
-                            <h4>7</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-
-            </div>
-
-            <div class="four-grids">
-                <div class="col-md-3 four-grid">
-                    <div class="four-agileits">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
-                        </div>
-                        <div class="four-text">
-                            <h3>项目运行时间</h3>
-                            <h4>123天23小时</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 four-grid">
-                    <div class="four-agileinfo">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i>
-                        </div>
-                        <div class="four-text">
-                            <h3>上次更新时间</h3>
-                            <h4>07-06 04:30:12</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 four-grid">
-                    <div class="four-w3ls">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-folder-open" aria-hidden="true"></i>
-                        </div>
-                        <div class="four-text">
-                            <h3>上次更新耗时</h3>
-                            <h4>1分23秒</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 four-grid">
-                    <div class="four-wthree">
-                        <div class="icon">
-                            <i class="glyphicon glyphicon-briefcase" aria-hidden="true"></i>
-                        </div>
-                        <div class="four-text">
-                            <h3>当前版本</h3>
-                            <h4>V1.0.400.001</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-
-            </div>
-
-            <!--#########################################################-->
             <div class="agile-grids">
                 <div class="agile-tables">
                     <div class="w3l-table-info">
-                        <h2>{{@title}}</h2>
+                        <h2>版本控制</h2>
                         <table id="table">
                             <thead>
-                            <tbody ms-for="projectInfo in @projectsInfo">
                             <tr>
-                                <td><a href="projectDetails">{{projectInfo.projectName}}</a></td>
-                                <td>{{projectInfo.runState}}</td>
-                                <td>{{projectInfo.runVersion}}</td>
+                                <th style="width: 20%;text-align: center">操作</th>
+                                <th style="width: 20%;text-align: center">操作版本</th>
+                                <th style="width: 20%;text-align: center">更新进度</th>
+                                <th style="width: 20%;text-align: center">更新状态</th>
+                                <th style="width: 20%;text-align: center">输出信息</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <p style="text-align: center"><a href="javascript:;">更新</a></p>
+                                </td>
+                                <td>
+                                    <p style="text-align: center"><input style="width: 80%" type="number"
+                                                                         name="updateVersion" value="请输入版本"
+                                                                         step="0.001"></p>
+
+                                </td>
+
+                                <td>
+                                    <div style="border: 3px solid;width:80%;height:20px;line-height:100%;margin: auto;background-color: #48FF15 ">
+                                        <p style="background-color:#FF171D;height:100%;width:20%;"></p>
+                                    </div>
+                                </td>
+                                <td style="text-align: center">
+                                    更新中
+                                </td>
+                                <td>
+                                    <p style="text-align: center"><a href="javascript:;">控制台信息</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p style="text-align: center"><a href="javascript:;">撤回</a></p>
+                                </td>
+                                <td>
+
+                                    <div style="text-align: center">
+                                        <select name="rollbackVersion" style="padding: 0;width: 80%;margin: auto">
+                                            <option value="0">126</option>
+                                            <option value="1" selected="selected">124</option>
+                                            <option value="2">122</option>
+                                            <option value="3">120</option>
+                                            <option value="4">118</option>
+                                        </select>
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div style="border: 3px solid;width:80%;height:20px;line-height:100%;margin:auto;background-color: #48FF15 ">
+                                        <p style="background-color:#FF171D;height:100%;width:35%;"></p>
+                                    </div>
+                                </td>
+                                <td style="text-align: center">
+                                    更新中
+                                </td>
+                                <td>
+                                    <p style="text-align: center"><a href="javascript:;" onclick="xx()">控制台信息</a></p>
+                                    <script>
+                                        function xx() {
+                                            alert("控制台信息");
+                                        }
+                                    </script>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <p style="text-align: center"><a href="javascript:;">撤回</a></p>
+                                </td>
+                                <td>
+
+                                    <div style="text-align: center">
+                                        <select name="rollbackVersion" style="padding: 0;width: 80%;margin: auto">
+                                            <option value="0">126</option>
+                                            <option value="1" selected="selected">124</option>
+                                            <option value="2">122</option>
+                                            <option value="3">120</option>
+                                            <option value="4">118</option>
+                                        </select>
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div style="border: 3px solid;width:80%;height:20px;line-height:100%;margin:auto;background-color: #48FF15 ">
+                                        <p style="background-color:#FF171D;height:100%;width:35%;"></p>
+                                    </div>
+                                </td>
+                                <td style="text-align: center">
+                                    更新中
+                                </td>
+                                <td>
+                                    <p style="text-align: center"><a href="javascript:;" onclick="xx()">控制台信息</a></p>
+                                    <script>
+                                        function xx() {
+                                            alert("控制台信息");
+                                        }
+                                    </script>
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="agile-grids">
+                <div class="agile-tables">
+                    <div class="w3l-table-info">
+                        <h2>项目控制</h2>
+                        <table id="table">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    更新
+                                </td>
+                                <td>
+                                    请输入版本号
+                                </td>
+                                <td>
+                                    更新进度
+                                </td>
+                                <td>
+                                    控制台信息
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    更新
+                                </td>
+                                <td>
+                                    请输入版本号
+                                </td>
+                                <td>
+                                    更新进度
+                                </td>
+                                <td>
+                                    控制台信息
+                                </td>
                             </tr>
                             </tbody>
                         </table>
