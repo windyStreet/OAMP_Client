@@ -6,7 +6,7 @@ __System.pgMaxPoolNum=20;
 __System.pgMaxWaitTime=3000;
 __System.dataSource={
     user:'postgres',
-    database:'NodeJS',
+    database:'OAMP_20170110',
     password:'123456',
     host:'127.0.0.1',
     port:5432
