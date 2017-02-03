@@ -29,7 +29,7 @@ global.Bean = function() {
     };
     self.SQL = "";
     self.setSQL = function(SQL){
-        this.SQL = SQL;
+        self.SQL = SQL;
         return self;
     };
     self.getSQL = function(){
